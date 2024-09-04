@@ -23,7 +23,7 @@ router.post("/", ...isAdmin, upload, async (req, res, next) => {
 router.put("/:id", ...isAdmin, upload, async (req, res, next) => {
   try {
     let data = JSON.parse(req.body.stone);
-    data.imageFileName = req.file.filename;
+    data.imageFileName = req.file?.filename ?? data.imageFileName;
     console.log(data);
     const stone = await stonesService.updateStone(data, req.params.id);
     res.json(stone);
