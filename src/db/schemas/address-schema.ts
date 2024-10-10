@@ -7,7 +7,7 @@ const addressSchema = new Schema<IAddress>({
   street: { type: String, required: true, minlength: 2, maxlength: 256 },
 
   zip: { type: String, required: true, minlength: 2, maxlength: 256 },
-  houseNumber: { type: Number, required: true, min: 2, max: 256 },
+  houseNumber: { type: Number, required: true, minlength: 2, maxlength: 256 },
 });
 
 export default addressSchema;

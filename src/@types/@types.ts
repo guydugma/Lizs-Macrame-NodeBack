@@ -42,14 +42,16 @@ export type IZodiac = {
 export type IStone = {
   name: string;
   zodiac: string;
-  description: string;
+  descriptionImageFileName: string;
   imageFileName: string;
 };
 
 export type IProduct = {
   title: string;
   description: string;
-  price: number;
+  originalPrice: number;
+  currentPrice: number;
+  discount: number;
   stock: number;
   imageFileNames: string[];
   stringAColor: string;

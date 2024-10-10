@@ -9,6 +9,10 @@ import cors from "cors";
 import { productsRouter } from "./routes/products";
 import { stonesRouter } from "./routes/stones";
 import { categoriesRouter } from "./routes/categories";
+import path from "path";
+import rfs, { createStream } from "rotating-file-stream";
+import bodyParser from "body-parser";
+import morganBody from "morgan-body";
 
 configDevEnv();
 connect();
@@ -17,6 +21,20 @@ const app = express();
 //middleware chain:
 app.use(json());
 app.use(morgan("dev"));
+const accessLogStream = createStream(
+  `${new Date().toJSON().slice(0, 10)}.log`,
+  {
+    path: path.join(__dirname, "../", "public", "logs"),
+  }
+);
+app.use(bodyParser.json());
+morganBody(app, { stream: accessLogStream, noColors: true });
+app.use(
+  morgan("combined", {
+    stream: accessLogStream,
+    skip: (req, res) => res.statusCode < 300,
+  })
+);
 app.use(cors({ origin: ["http://localhost:5173", "http://localhost:5172"] }));
 
 //routes
@@ -25,7 +43,12 @@ app.use("/api/products", productsRouter);
 app.use("/api/stones", stonesRouter);
 app.use("/api/categories", categoriesRouter);
 
+app.use(express.static("public/dist"));
 app.use("/public", express.static("public"));
+
+app.get("/*", function (req, res) {
+  res.sendFile(path.join(__dirname, "../public", "dist", "/index.html"));
+});
 app.use(errorHandler);
 app.use(notFound);
 

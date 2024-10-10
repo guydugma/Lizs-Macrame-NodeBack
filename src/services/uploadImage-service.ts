@@ -49,9 +49,11 @@ export const upload = (folder: "stones" | "categories" | "products") =>
     },
   });
 
-export const uploadSingleImage = (
-  folder: "stones" | "categories" | "products"
-) => upload(folder).single("image");
+export const uplaodStoneImages = () =>
+  upload("stones").fields([
+    { name: "image", maxCount: 1 },
+    { name: "descriptionImage", maxCount: 1 },
+  ]);
 
 export const uploadMultipleImages = (
   folder: "stones" | "categories" | "products"

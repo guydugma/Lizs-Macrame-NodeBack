@@ -3,6 +3,7 @@ import { productsService } from "../services/products-service";
 import { uploadMultipleImages } from "../services/uploadImage-service";
 import { categoriesService } from "../services/categories-service";
 import { isAdmin } from "../middleware/is-admin";
+import { Logger } from "../logs/logger";
 
 const router = Router();
 const upload = uploadMultipleImages("products");

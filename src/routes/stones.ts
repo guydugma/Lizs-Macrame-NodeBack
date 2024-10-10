@@ -1,18 +1,19 @@
 import { Router } from "express";
 import { stonesService } from "../services/stones-service";
-import { uploadSingleImage } from "../services/uploadImage-service";
+import { uplaodStoneImages } from "../services/uploadImage-service";
 import { Logger } from "../logs/logger";
 import multiparty from "multiparty";
 import { IStone } from "../@types/@types";
 import { isAdmin } from "../middleware/is-admin";
 
 const router = Router();
-const upload = uploadSingleImage("stones");
+const upload = uplaodStoneImages();
 
 router.post("/", ...isAdmin, upload, async (req, res, next) => {
   try {
     let data = JSON.parse(req.body.stone);
-    data.imageFileName = req.file.filename;
+    data.imageFileName = req.files["image"][0].filename;
+    data.descriptionImageFileName = req.files["descriptionImage"][0].filename;
     const stone = await stonesService.createStone(data);
     res.json(stone);
   } catch (e) {
@@ -23,8 +24,12 @@ router.post("/", ...isAdmin, upload, async (req, res, next) => {
 router.put("/:id", ...isAdmin, upload, async (req, res, next) => {
   try {
     let data = JSON.parse(req.body.stone);
-    data.imageFileName = req.file?.filename ?? data.imageFileName;
-    console.log(data);
+    data.imageFileName = req.files["image"]
+      ? req.files["image"][0].filename
+      : data.imageFileName;
+    data.descriptionImageFileName = req.files["descriptionImage"]
+      ? req.files["descriptionImage"][0].filename
+      : data.descriptionImageFileName;
     const stone = await stonesService.updateStone(data, req.params.id);
     res.json(stone);
   } catch (e) {
