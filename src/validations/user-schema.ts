@@ -1,14 +1,13 @@
 import Joi from "joi";
 import { passwordRegex, phoneRegex } from "./patterns";
 import { IAddress, IName, IUser } from "../@types/@types";
-import { isAdmin } from "../middleware/is-admin";
 
 const addressSchema = Joi.object<IAddress>({
-  city: Joi.string().min(2).max(50).required(),
-  country: Joi.string().min(2).max(50).required(),
+  city: Joi.string().required(),
+  country: Joi.string().required(),
   houseNumber: Joi.number(),
-  street: Joi.string().min(2).max(50).required(),
-  zip: Joi.string().min(2).max(10).required(),
+  street: Joi.string().required(),
+  zip: Joi.string().required(),
 });
 
 const userSchema = Joi.object<IUser>({
@@ -18,8 +17,8 @@ const userSchema = Joi.object<IUser>({
   //address
   address: addressSchema.required(),
   name: Joi.object<IName>({
-    first: Joi.string().min(2).max(50).required(),
-    last: Joi.string().min(2).max(50).required(),
+    first: Joi.string().required(),
+    last: Joi.string().required(),
   }).required(),
   isAdmin: Joi.boolean().default(false).required(),
 });

@@ -1,0 +1,2891 @@
+
+Request: GET /api/products at Sun Oct 20 2024 18:40:31 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 7.148 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:40:31 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 22.419 ms 
+
+Request: GET /api/categories at Sun Oct 20 2024 18:40:31 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 27.179 ms 
+
+Request: GET / at Sun Oct 20 2024 18:40:31 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 3.274 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:40:31 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 5.661 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:40:31 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 4.215 ms 
+
+Request: GET /public/products/1724679146877.jpg at Sun Oct 20 2024 18:40:31 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 3.297 ms 
+
+Request: GET /public/products/1724679330997.jpg at Sun Oct 20 2024 18:40:31 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 3.973 ms 
+
+Request: GET /public/products/1724680280610.jpg at Sun Oct 20 2024 18:40:31 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 5.005 ms 
+
+Request: GET /public/products/1724679930178.jpg at Sun Oct 20 2024 18:40:31 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 4.311 ms 
+
+Request: GET /public/products/1724679752305.jpg at Sun Oct 20 2024 18:40:31 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 5.617 ms 
+
+Request: GET /public/products/1724679146913.jpg at Sun Oct 20 2024 18:40:36 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 2.196 ms 
+
+Request: GET /public/products/1724679146905.jpg at Sun Oct 20 2024 18:40:36 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 3.380 ms 
+
+Request: GET /public/products/1724679146922.jpg at Sun Oct 20 2024 18:40:36 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 4.850 ms 
+
+Request: GET / at Sun Oct 20 2024 18:41:49 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 1.250 ms 
+
+Request: GET /api/products at Sun Oct 20 2024 18:41:49 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 10.908 ms 
+
+Request: GET / at Sun Oct 20 2024 18:41:49 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 5.124 ms 
+
+Request: GET /api/categories at Sun Oct 20 2024 18:41:49 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 12.217 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:41:49 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 12.962 ms 
+
+Request: GET /api/products at Sun Oct 20 2024 18:41:49 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 7.723 ms 
+
+Request: GET /api/categories at Sun Oct 20 2024 18:41:49 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 9.561 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:41:49 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 13.303 ms 
+
+Request: GET / at Sun Oct 20 2024 18:42:45 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 0.771 ms 
+
+Request: GET /api/products at Sun Oct 20 2024 18:42:45 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 5.539 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:42:45 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 8.622 ms 
+
+Request: GET / at Sun Oct 20 2024 18:42:45 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 3.342 ms 
+
+Request: GET /api/categories at Sun Oct 20 2024 18:42:45 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 7.696 ms 
+
+Request: GET /api/products at Sun Oct 20 2024 18:42:45 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 5.426 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:42:45 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 5.771 ms 
+
+Request: GET /api/categories at Sun Oct 20 2024 18:42:45 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 3.969 ms 
+
+Request: GET / at Sun Oct 20 2024 18:43:38 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 0.473 ms 
+
+Request: GET /api/products at Sun Oct 20 2024 18:43:38 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 4.563 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:43:38 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 7.745 ms 
+
+Request: GET /api/categories at Sun Oct 20 2024 18:43:38 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 8.087 ms 
+
+Request: GET / at Sun Oct 20 2024 18:43:38 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 5.504 ms 
+
+Request: GET /api/products at Sun Oct 20 2024 18:43:38 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 10.600 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:43:38 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 9.968 ms 
+
+Request: GET /api/categories at Sun Oct 20 2024 18:43:38 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 5.852 ms 
+
+Request: GET / at Sun Oct 20 2024 18:44:57 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 0.512 ms 
+
+Request: GET /api/products at Sun Oct 20 2024 18:44:57 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 4.579 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:44:57 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 7.256 ms 
+
+Request: GET /api/categories at Sun Oct 20 2024 18:44:57 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 5.869 ms 
+
+Request: GET / at Sun Oct 20 2024 18:44:57 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 0.790 ms 
+
+Request: GET /api/products at Sun Oct 20 2024 18:44:57 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 3.732 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:44:57 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 5.230 ms 
+
+Request: GET /api/categories at Sun Oct 20 2024 18:44:57 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 6.718 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:45:00 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 3.081 ms 
+
+Request: GET /public/products/1724679146877.jpg at Sun Oct 20 2024 18:45:00 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 30.959 ms 
+
+Request: GET /public/products/1724679330997.jpg at Sun Oct 20 2024 18:45:00 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 41.879 ms 
+
+Request: GET /public/products/1724680280610.jpg at Sun Oct 20 2024 18:45:00 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 54.267 ms 
+
+Request: GET /public/products/1724679930178.jpg at Sun Oct 20 2024 18:45:00 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 182.651 ms 
+
+Request: GET /public/products/1724679752305.jpg at Sun Oct 20 2024 18:45:00 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 305.945 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:45:00 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 3.377 ms 
+
+Request: GET /public/products/1724679146905.jpg at Sun Oct 20 2024 18:45:03 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 1.664 ms 
+
+Request: GET /public/products/1724679146913.jpg at Sun Oct 20 2024 18:45:03 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 2.283 ms 
+
+Request: GET /public/products/1724679146922.jpg at Sun Oct 20 2024 18:45:03 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 2.987 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:45:12 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 1.818 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:45:12 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 15.407 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:45:14 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 2.744 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:45:14 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 2.842 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:45:16 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 2.130 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:45:16 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 6.872 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:45:26 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 2.655 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:45:26 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 8.912 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:45:30 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 1.775 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:45:30 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 2.731 ms 
+
+Request: GET / at Sun Oct 20 2024 18:47:39 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 16.973 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:47:39 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 311.011 ms 
+
+Request: GET /api/categories at Sun Oct 20 2024 18:47:39 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 349.419 ms 
+
+Request: GET /api/products at Sun Oct 20 2024 18:47:39 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 401.734 ms 
+
+Request: GET / at Sun Oct 20 2024 18:47:39 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 212.987 ms 
+
+Request: GET /api/categories at Sun Oct 20 2024 18:47:40 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 9.258 ms 
+
+Request: GET /api/products at Sun Oct 20 2024 18:47:40 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 175.725 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:47:40 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 343.830 ms 
+
+Request: GET /public/products/1724679330997.jpg at Sun Oct 20 2024 18:47:40 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 397.095 ms 
+
+Request: GET /public/products/1724679331021.jpg at Sun Oct 20 2024 18:47:40 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 235.660 ms 
+
+Request: GET /public/products/1724679331024.jpg at Sun Oct 20 2024 18:47:40 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 84.050 ms 
+
+Request: GET /public/products/1724679331026.jpg at Sun Oct 20 2024 18:47:40 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 7.026 ms 
+
+Request: GET /public/products/1724679331036.jpg at Sun Oct 20 2024 18:47:40 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 7.722 ms 
+
+Request: GET /public/products/1724679146877.jpg at Sun Oct 20 2024 18:47:46 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 1.445 ms 
+
+Request: GET /public/products/1724680280610.jpg at Sun Oct 20 2024 18:47:46 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 2.559 ms 
+
+Request: GET /public/products/1724679930178.jpg at Sun Oct 20 2024 18:47:46 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 2.873 ms 
+
+Request: GET /public/products/1724679752305.jpg at Sun Oct 20 2024 18:47:46 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 2.278 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:47:46 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 2.052 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:47:46 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 3.228 ms 
+
+Request: GET /public/products/1724679146905.jpg at Sun Oct 20 2024 18:47:47 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 1.400 ms 
+
+Request: GET /public/products/1724679146913.jpg at Sun Oct 20 2024 18:47:47 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 2.077 ms 
+
+Request: GET /public/products/1724679146922.jpg at Sun Oct 20 2024 18:47:47 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 3.193 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:47:59 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 2.468 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:47:59 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 3.280 ms 
+
+Request: GET / at Sun Oct 20 2024 18:48:06 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 1.259 ms 
+
+Request: GET /api/products at Sun Oct 20 2024 18:48:06 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 4.264 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:48:06 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 11.588 ms 
+
+Request: GET /api/categories at Sun Oct 20 2024 18:48:06 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 8.623 ms 
+
+Request: GET / at Sun Oct 20 2024 18:48:06 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 2.315 ms 
+
+Request: GET /api/products at Sun Oct 20 2024 18:48:06 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 7.075 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:48:06 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 8.183 ms 
+
+Request: GET /api/categories at Sun Oct 20 2024 18:48:06 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 6.644 ms 
+
+Request: GET /public/products/1724680280610.jpg at Sun Oct 20 2024 18:48:06 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 0.367 ms 
+
+Request: GET /public/products/1724679146877.jpg at Sun Oct 20 2024 18:48:06 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 1.492 ms 
+
+Request: GET /public/products/1724679752305.jpg at Sun Oct 20 2024 18:48:06 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 2.047 ms 
+
+Request: GET /public/products/1724679330997.jpg at Sun Oct 20 2024 18:48:06 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 3.338 ms 
+
+Request: GET /public/products/1724679930178.jpg at Sun Oct 20 2024 18:48:06 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 1.818 ms 
+
+Request: GET / at Sun Oct 20 2024 18:48:17 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 0.404 ms 
+
+Request: GET /api/products at Sun Oct 20 2024 18:48:17 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 3.797 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:48:17 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 4.226 ms 
+
+Request: GET /api/categories at Sun Oct 20 2024 18:48:17 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 6.109 ms 
+
+Request: GET / at Sun Oct 20 2024 18:48:17 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 0.497 ms 
+
+Request: GET /api/products at Sun Oct 20 2024 18:48:17 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 4.303 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:48:17 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 6.728 ms 
+
+Request: GET /api/categories at Sun Oct 20 2024 18:48:17 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 4.408 ms 
+
+Request: GET /public/products/1724680280610.jpg at Sun Oct 20 2024 18:48:17 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 1.557 ms 
+
+Request: GET /public/products/1724679146877.jpg at Sun Oct 20 2024 18:48:17 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 2.252 ms 
+
+Request: GET /public/products/1724679752305.jpg at Sun Oct 20 2024 18:48:18 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 3.282 ms 
+
+Request: GET /public/products/1724679330997.jpg at Sun Oct 20 2024 18:48:18 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 2.891 ms 
+
+Request: GET /public/products/1724679930178.jpg at Sun Oct 20 2024 18:48:18 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 3.233 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:48:19 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 3.034 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:48:19 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 3.373 ms 
+
+Request: GET /public/products/1724679146905.jpg at Sun Oct 20 2024 18:48:20 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 0.527 ms 
+
+Request: GET /public/products/1724679146913.jpg at Sun Oct 20 2024 18:48:20 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 3.066 ms 
+
+Request: GET /public/products/1724679146922.jpg at Sun Oct 20 2024 18:48:20 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 4.125 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:48:24 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 3.214 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:48:24 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 2.504 ms 
+
+Request: GET /public/products/1724679930183.jpg at Sun Oct 20 2024 18:48:25 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 0.724 ms 
+
+Request: GET /public/products/1724679930189.jpg at Sun Oct 20 2024 18:48:25 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 2.771 ms 
+
+Request: GET /public/products/1724679930200.jpg at Sun Oct 20 2024 18:48:25 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 2.835 ms 
+
+Request: GET /public/products/1724679930275.jpg at Sun Oct 20 2024 18:48:25 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 1.870 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:48:27 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 1.644 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:48:27 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 2.094 ms 
+
+Request: GET /public/products/1724679146877.jpg at Sun Oct 20 2024 18:48:29 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 0.571 ms 
+
+Request: GET /public/products/1724679930178.jpg at Sun Oct 20 2024 18:48:29 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 0.525 ms 
+
+Request: GET / at Sun Oct 20 2024 18:48:29 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 0.428 ms 
+
+Request: GET /api/products at Sun Oct 20 2024 18:48:29 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 3.133 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:48:29 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 2.559 ms 
+
+Request: GET /api/categories at Sun Oct 20 2024 18:48:29 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 4.067 ms 
+
+Request: GET / at Sun Oct 20 2024 18:48:30 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 0.504 ms 
+
+Request: GET /api/products at Sun Oct 20 2024 18:48:30 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 5.455 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:48:30 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 8.313 ms 
+
+Request: GET /api/categories at Sun Oct 20 2024 18:48:30 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 5.470 ms 
+
+Request: GET /public/products/1724680280610.jpg at Sun Oct 20 2024 18:48:30 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 0.894 ms 
+
+Request: GET /public/products/1724679752305.jpg at Sun Oct 20 2024 18:48:30 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 1.435 ms 
+
+Request: GET /public/products/1724679330997.jpg at Sun Oct 20 2024 18:48:30 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 1.911 ms 
+
+Request: GET /public/products/1724679146877.jpg at Sun Oct 20 2024 18:48:33 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 0.514 ms 
+
+Request: GET /public/products/1724679930178.jpg at Sun Oct 20 2024 18:48:33 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 0.754 ms 
+
+Request: GET / at Sun Oct 20 2024 18:48:33 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 0.474 ms 
+
+Request: GET /api/products at Sun Oct 20 2024 18:48:33 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 3.973 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:48:33 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 3.208 ms 
+
+Request: GET /api/categories at Sun Oct 20 2024 18:48:33 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 2.944 ms 
+
+Request: GET / at Sun Oct 20 2024 18:48:33 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 0.563 ms 
+
+Request: GET /api/products at Sun Oct 20 2024 18:48:33 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 6.488 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:48:33 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 7.295 ms 
+
+Request: GET /api/categories at Sun Oct 20 2024 18:48:33 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 8.103 ms 
+
+Request: GET /public/products/1724680280610.jpg at Sun Oct 20 2024 18:48:34 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 1.635 ms 
+
+Request: GET /public/products/1724679752305.jpg at Sun Oct 20 2024 18:48:34 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 2.264 ms 
+
+Request: GET /public/products/1724679330997.jpg at Sun Oct 20 2024 18:48:34 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response: 304 2.848 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:48:50 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 2.008 ms 
+
+Request: GET /api/stones at Sun Oct 20 2024 18:48:50 GMT+0300, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36 Edg/129.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": ""
+	},
+	{
+		"_id": "66cc8fb935338737ded8520f",
+		"name": "רוז קוורץ",
+		"description": "רוז קוורץ, אבן האהבה ללא תנאים, מגיעה בגוון ורוד רך ועדין. היא נחשבת לאבן שמביאה איתה אהבה, שלווה ושלום, ומחזקת את תחושת ההרמוניה והאמפתיה. האבן מתאימה במיוחד לבני ובנות מזלות שור, סרטן, ומאזניים, ותורמת לפיתוח מערכות יחסים עמוקות ומלאות רגש. הרוז קוורץ היא הבחירה האידיאלית עבור מי שרוצה לטפח אהבה, גם כלפי עצמו וגם כלפי אחרים.",
+		"__v": 0,
+		"descriptionImageFileName": "1725889263938.jpg",
+		"descriptionText": ""
+	},
+	
+...
+Response: 304 3.490 ms 

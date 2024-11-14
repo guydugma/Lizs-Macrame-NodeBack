@@ -1,0 +1,3453 @@
+
+Request: GET /api/stones at Mon Nov 04 2024 17:55:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 11.513 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 17:55:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 4.897 ms 
+
+Request: POST /api/users at Mon Nov 04 2024 17:55:34 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "test",
+		"last": "test"
+	},
+	"phone": "0546999999",
+	"email": "adssssssssssssssssssssssssssssssssssssssssssmin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "5",
+		"zip": "654321654"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errors": {
+		"password": {
+			"name": "ValidatorError",
+			"message": "Path `password` (`$2b$12$IQe2XZ.XoBn0wspy12OSleTLeC0MKiEI9HqdnjiIQTJjRwdF8EDHu`) is longer than the maximum allowed length (20).",
+			"properties": {
+				"message": "Path `password` (`$2b$12$IQe2XZ.XoBn0wspy12OSleTLeC0MKiEI9HqdnjiIQTJjRwdF8EDHu`) is longer than the maximum allowed length (20).",
+				"type": "maxlength",
+				"maxlength": 20,
+				"path": "password",
+				"value": "$2b$12$IQe2XZ.XoBn0wspy12OSleTLeC0MKiEI9HqdnjiIQTJjRwdF8EDHu"
+			},
+			"kind": "maxlength",
+			"path": "password",
+			"value": "$2b$12$IQe2XZ.XoBn0wspy12OSleTLeC0MKiEI9HqdnjiIQTJjRwdF8EDHu"
+		}
+	},
+	"_message": "User validation failed",
+	"name": "ValidationError",
+	"message": "User validation failed: password: Path `password` (`$2b$12$IQe2XZ.XoBn0wspy12OSleTLeC0MKiEI9HqdnjiIQTJjRwdF8EDHu`) is longer than the maximum allowed length (20)."
+}
+Response: 500 252.354 ms 
+
+Request: POST /api/users at Mon Nov 04 2024 17:56:32 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "test",
+		"last": "test"
+	},
+	"phone": "0546999999",
+	"email": "adssssssssssssssssssssssssssssssssssssssssssmin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "5",
+		"zip": "654321654"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errors": {
+		"password": {
+			"name": "ValidatorError",
+			"message": "Path `password` (`$2b$12$AMKvLg3OQc8xMh3ukmJZ4eLLE1fO87XCf.MNV0nagDAdfrE5lyZUC`) is longer than the maximum allowed length (20).",
+			"properties": {
+				"message": "Path `password` (`$2b$12$AMKvLg3OQc8xMh3ukmJZ4eLLE1fO87XCf.MNV0nagDAdfrE5lyZUC`) is longer than the maximum allowed length (20).",
+				"type": "maxlength",
+				"maxlength": 20,
+				"path": "password",
+				"value": "$2b$12$AMKvLg3OQc8xMh3ukmJZ4eLLE1fO87XCf.MNV0nagDAdfrE5lyZUC"
+			},
+			"kind": "maxlength",
+			"path": "password",
+			"value": "$2b$12$AMKvLg3OQc8xMh3ukmJZ4eLLE1fO87XCf.MNV0nagDAdfrE5lyZUC"
+		}
+	},
+	"_message": "User validation failed",
+	"name": "ValidationError",
+	"message": "User validation failed: password: Path `password` (`$2b$12$AMKvLg3OQc8xMh3ukmJZ4eLLE1fO87XCf.MNV0nagDAdfrE5lyZUC`) is longer than the maximum allowed length (20)."
+}
+Response: 500 224.975 ms 
+
+Request: GET / at Mon Nov 04 2024 18:04:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 7.893 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 18:04:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 23.267 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 18:04:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 20.284 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 18:04:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 22.127 ms 
+
+Request: GET / at Mon Nov 04 2024 18:04:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 13.673 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 18:04:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 9.691 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 18:04:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 10.243 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 18:04:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 15.336 ms 
+
+Request: GET / at Mon Nov 04 2024 18:09:25 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 5.262 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 18:09:25 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 18.265 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 18:09:25 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 18.926 ms 
+
+Request: GET / at Mon Nov 04 2024 18:09:25 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 17.302 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 18:09:25 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 23.026 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 18:09:25 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 8.916 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 18:09:25 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 14.108 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 18:09:25 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 17.313 ms 
+
+Request: GET / at Mon Nov 04 2024 18:23:32 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 3.166 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 18:23:32 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 10.489 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 18:23:32 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 7.318 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 18:23:32 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 16.084 ms 
+
+Request: GET / at Mon Nov 04 2024 18:23:32 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 7.809 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 18:23:32 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 10.681 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 18:23:32 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 12.679 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 18:23:32 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 12.242 ms 
+
+Request: POST /api/users at Mon Nov 04 2024 18:23:44 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "test",
+		"last": "test"
+	},
+	"phone": "0546999999",
+	"email": "admin@gmail.com",
+	"password": "Abcששש123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "5",
+		"zip": "453456"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"email": 1
+	},
+	"keyValue": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 500 250.004 ms 
+
+Request: GET /public/products/1724679146877.jpg at Mon Nov 04 2024 18:30:20 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 5.737 ms 
+
+Request: GET /public/products/1724679330997.jpg at Mon Nov 04 2024 18:30:20 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 11.225 ms 
+
+Request: GET /public/products/1724680280610.jpg at Mon Nov 04 2024 18:30:20 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 12.176 ms 
+
+Request: GET /public/products/1724679930178.jpg at Mon Nov 04 2024 18:30:20 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 12.665 ms 
+
+Request: GET /public/products/1724679752305.jpg at Mon Nov 04 2024 18:30:20 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 17.149 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 18:30:20 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 11.923 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 18:30:20 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 3.773 ms 
+
+Request: GET /public/stones/1730735011893.jpg at Mon Nov 04 2024 18:30:20 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 2.969 ms 
+
+Request: GET / at Mon Nov 04 2024 18:31:20 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 0.912 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 18:31:20 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 8.926 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 18:31:20 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 10.810 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 18:31:20 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 12.774 ms 
+
+Request: GET / at Mon Nov 04 2024 18:31:20 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 3.417 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 18:31:20 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 19.948 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 18:31:20 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 25.934 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 18:31:20 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 25.808 ms 
+
+Request: GET / at Mon Nov 04 2024 19:25:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 3.373 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 19:25:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 17.519 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 19:25:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 16.380 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 19:25:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 17.326 ms 
+
+Request: GET / at Mon Nov 04 2024 19:25:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 3.351 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 19:25:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 11.878 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 19:25:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 14.039 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 19:25:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 19.409 ms 
+
+Request: GET / at Mon Nov 04 2024 19:27:33 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 0.690 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 19:27:33 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 7.858 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 19:27:33 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 9.808 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 19:27:33 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 14.080 ms 
+
+Request: GET / at Mon Nov 04 2024 19:27:33 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 0.708 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 19:27:33 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 10.109 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 19:27:33 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 14.607 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 19:27:33 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 9.792 ms 
+
+Request: GET / at Mon Nov 04 2024 19:29:21 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 0.623 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 19:29:21 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 4.102 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 19:29:21 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 3.793 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 19:29:21 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 3.472 ms 
+
+Request: GET / at Mon Nov 04 2024 19:29:21 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 0.562 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 19:29:21 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 5.597 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 19:29:21 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 9.193 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 19:29:21 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 9.029 ms 
+
+Request: GET / at Mon Nov 04 2024 19:43:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 0.547 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 19:43:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 5.199 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 19:43:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 6.504 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 19:43:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 3.046 ms 
+
+Request: GET / at Mon Nov 04 2024 19:43:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 0.896 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 19:43:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 4.377 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 19:43:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 5.485 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 19:43:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 6.689 ms 
+
+Request: GET /public/products/1724679146877.jpg at Mon Nov 04 2024 19:48:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 4.259 ms 
+
+Request: GET /public/products/1724679330997.jpg at Mon Nov 04 2024 19:48:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 4.747 ms 
+
+Request: GET /public/products/1724680280610.jpg at Mon Nov 04 2024 19:48:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 5.099 ms 
+
+Request: GET /public/products/1724679930178.jpg at Mon Nov 04 2024 19:48:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 4.347 ms 
+
+Request: GET /public/products/1724679752305.jpg at Mon Nov 04 2024 19:48:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 4.534 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 19:48:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 3.369 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 19:48:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 3.693 ms 
+
+Request: GET /public/stones/1730735011893.jpg at Mon Nov 04 2024 19:48:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 2.059 ms 
+
+Request: GET / at Mon Nov 04 2024 19:49:29 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 0.525 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 19:49:29 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 5.283 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 19:49:29 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 7.807 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 19:49:29 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 8.698 ms 
+
+Request: GET / at Mon Nov 04 2024 19:49:29 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response: 304 0.520 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 19:49:29 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 4.200 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 19:49:29 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 5.257 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 19:49:29 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 6.416 ms 
+
+Request: GET /public/products/1724679146877.jpg at Mon Nov 04 2024 19:52:03 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 1.573 ms 
+
+Request: GET /public/products/1724679330997.jpg at Mon Nov 04 2024 19:52:03 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 2.129 ms 
+
+Request: GET /public/products/1724680280610.jpg at Mon Nov 04 2024 19:52:03 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 2.759 ms 
+
+Request: GET /public/products/1724679930178.jpg at Mon Nov 04 2024 19:52:03 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 3.053 ms 
+
+Request: GET /public/products/1724679752305.jpg at Mon Nov 04 2024 19:52:03 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 3.629 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 19:52:03 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 2.471 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 19:52:03 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 2.974 ms 
+
+Request: GET /public/stones/1730735011893.jpg at Mon Nov 04 2024 19:52:03 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 1.538 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 19:53:17 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 2.693 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 19:53:17 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 2.930 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 19:55:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 6.792 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 19:55:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 5.302 ms 
+
+Request: GET / at Mon Nov 04 2024 20:05:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 8.953 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 20:05:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 22.837 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 20:05:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 314.557 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 20:05:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 439.812 ms 
+
+Request: GET / at Mon Nov 04 2024 20:05:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 13.833 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 20:05:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 9.011 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 20:05:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 19.306 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 20:05:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 25.282 ms 
+
+Request: GET / at Mon Nov 04 2024 20:12:27 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 0.357 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 20:12:27 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 9.497 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 20:12:27 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 12.425 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 20:12:27 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 8.981 ms 
+
+Request: GET / at Mon Nov 04 2024 20:12:27 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 6.167 ms 
+
+Request: GET /api/stones at Mon Nov 04 2024 20:12:27 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 9.708 ms 
+
+Request: GET /api/products at Mon Nov 04 2024 20:12:27 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 9.332 ms 
+
+Request: GET /api/categories at Mon Nov 04 2024 20:12:27 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 12.142 ms 
+
+Request: POST /api/stones at Mon Nov 04 2024 20:26:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Request Body:
+{
+	"stone": "{\"name\":\"test test\",\"descriptionText\":\"asdasdasd\",\"zodiacs\":[\"עקרב\",\"גדי\",\"אריה\",\"סרטן\",\"תאומים\"],\"imageFileName\":\"\"}",
+	"image": ""
+}
+Response: 500 7.387 ms 
+
+Request: GET / at Tue Nov 05 2024 18:30:18 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 6.031 ms 
+
+Request: GET /api/products at Tue Nov 05 2024 18:30:18 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 99.601 ms 
+
+Request: GET / at Tue Nov 05 2024 18:30:18 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 47.432 ms 
+
+Request: GET /api/stones at Tue Nov 05 2024 18:30:18 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 52.395 ms 
+
+Request: GET /api/categories at Tue Nov 05 2024 18:30:18 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 51.936 ms 
+
+Request: GET /api/products at Tue Nov 05 2024 18:30:18 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 8.692 ms 
+
+Request: GET /api/stones at Tue Nov 05 2024 18:30:18 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 9.802 ms 
+
+Request: GET /api/categories at Tue Nov 05 2024 18:30:18 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 11.133 ms 
+
+Request: GET /public/products/1724679146877.jpg at Tue Nov 05 2024 18:30:19 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 4.215 ms 
+
+Request: GET /public/products/1724679330997.jpg at Tue Nov 05 2024 18:30:19 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 7.828 ms 
+
+Request: GET /public/products/1724679930178.jpg at Tue Nov 05 2024 18:30:19 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 6.552 ms 
+
+Request: GET /public/products/1724680280610.jpg at Tue Nov 05 2024 18:30:19 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 9.604 ms 
+
+Request: GET /public/products/1724679752305.jpg at Tue Nov 05 2024 18:30:19 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 10.654 ms 
+
+Request: GET /api/stones at Tue Nov 05 2024 18:30:19 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 7.923 ms 
+
+Request: GET /api/stones at Tue Nov 05 2024 18:30:19 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 3.460 ms 
+
+Request: GET /public/stones/1730735011893.jpg at Tue Nov 05 2024 18:30:19 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 0.704 ms 
+
+Request: GET /api/stones at Tue Nov 05 2024 18:45:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 6.503 ms 
+
+Request: GET / at Tue Nov 05 2024 18:45:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 5.107 ms 
+
+Request: GET /api/products at Tue Nov 05 2024 18:45:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 6.882 ms 
+
+Request: GET /api/stones at Tue Nov 05 2024 18:45:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 5.170 ms 
+
+Request: GET /api/categories at Tue Nov 05 2024 18:45:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 5.300 ms 
+
+Request: GET / at Tue Nov 05 2024 18:45:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 1.527 ms 
+
+Request: GET /api/products at Tue Nov 05 2024 18:45:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 6.811 ms 
+
+Request: GET /api/stones at Tue Nov 05 2024 18:45:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 8.037 ms 
+
+Request: GET /api/categories at Tue Nov 05 2024 18:45:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 9.566 ms 
+
+Request: GET /api/stones at Tue Nov 05 2024 18:45:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 3.743 ms 
+
+Request: GET /public/stones/1730735011893.jpg at Tue Nov 05 2024 18:45:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 1.225 ms 
+
+Request: GET /api/stones at Tue Nov 05 2024 18:49:01 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 126.930 ms 
+
+Request: GET /api/categories at Tue Nov 05 2024 18:49:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 415.394 ms 
+
+Request: GET /api/products at Tue Nov 05 2024 18:49:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 590.195 ms 
+
+Request: GET / at Tue Nov 05 2024 18:49:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 631.620 ms 
+
+Request: GET /api/stones at Tue Nov 05 2024 18:49:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 104.169 ms 
+
+Request: GET / at Tue Nov 05 2024 18:49:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 0.456 ms 
+
+Request: GET /api/categories at Tue Nov 05 2024 18:49:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 17.872 ms 
+
+Request: GET /api/products at Tue Nov 05 2024 18:49:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 72.621 ms 
+
+Request: GET /api/stones at Tue Nov 05 2024 18:49:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 32.262 ms 
+
+Request: GET /public/stones/1730735011893.jpg at Tue Nov 05 2024 18:49:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 6.831 ms 
+
+Request: GET /api/stones at Tue Nov 05 2024 18:49:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 6.584 ms 
+
+Request: GET /api/stones at Tue Nov 05 2024 18:51:45 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 5.605 ms 
+
+Request: GET / at Tue Nov 05 2024 18:51:45 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 5.157 ms 
+
+Request: GET /api/products at Tue Nov 05 2024 18:51:45 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 8.797 ms 
+
+Request: GET /api/stones at Tue Nov 05 2024 18:51:45 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 14.405 ms 
+
+Request: GET / at Tue Nov 05 2024 18:51:45 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response: 304 11.962 ms 
+
+Request: GET /api/categories at Tue Nov 05 2024 18:51:45 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"17
+...
+Response: 304 22.256 ms 
+
+Request: GET /api/products at Tue Nov 05 2024 18:51:45 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354db7",
+		"title": "עגילים",
+		"description": "עגילי מקרמה בעבודת יד אלו הם שילוב מושלם של עיצוב בוהו-שיק קלאסי ואמנות קראפט עכשווית. כל זוג עגילים עשוי מחוטי מקרמה איכותיים הנקשרים בקפידה ליצירת דפוסים ייחודיים ומורכבים. העגילים קלים ונוחים לענידה, ומוסיפים נגיעה של סטייל ייחודי לכל הופעה יומיומית או ערב אלגנטי. בין אם את מחפשת מתנה מקורית או תוספת אופנתית לאוסף שלך, עגילי המקרמה הללו הם הבחירה המושלמת.",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg"
+		],
+		"stock": 2,
+		"stringAColor": "black",
+		"stringBColor": "white",
+		"stone": "אקוומרין",
+		"category": "עגילים",
+		"__v": 0,
+		"discount": 20,
+		"currentPrice": 280,
+		"originalPrice": 350
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמת בעבודת יד תוך תשומת לב לפרטים הקטנים ביותר. הדוג
+...
+Response: 304 23.801 ms 

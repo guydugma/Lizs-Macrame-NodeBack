@@ -13,9 +13,10 @@ import path from "path";
 import rfs, { createStream } from "rotating-file-stream";
 import bodyParser from "body-parser";
 import morganBody from "morgan-body";
+import { Logger } from "./logs/logger";
 
 configDevEnv();
-connect();
+const client = connect();
 
 const app = express();
 //middleware chain:
@@ -28,13 +29,12 @@ const accessLogStream = createStream(
   }
 );
 app.use(bodyParser.json());
-morganBody(app, { stream: accessLogStream, noColors: true });
-app.use(
-  morgan("combined", {
-    stream: accessLogStream,
-    skip: (req, res) => res.statusCode < 300,
-  })
-);
+morganBody(app, {
+  stream: accessLogStream,
+  noColors: true,
+  skip: (req, res) => res.statusCode < 300,
+  timezone: "eet",
+});
 app.use(cors({ origin: ["http://localhost:5173", "http://localhost:5172"] }));
 
 //routes

@@ -16,9 +16,10 @@ const productSchema = new Schema({
   },
   stock: { type: Number, required: true, min: 0 },
   stringAColor: { type: String, required: true, minlength: 2, maxlength: 256 },
-  stringBColor: { type: String, minlength: 2, maxlength: 256 },
+  stringBColor: { type: String, required: false },
   stone: { type: String, required: true },
   category: { type: String, required: true },
+  positionIndex: { type: Number },
 });
 
 export default productSchema;

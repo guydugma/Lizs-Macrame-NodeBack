@@ -12,10 +12,10 @@ const connect = async () => {
     return;
   }
   try {
-    await mongoose.connect(connectionString);
+    const client = await mongoose.connect(connectionString);
 
     await initDB();
-
+    return client;
     Logger.log("Database Connected");
   } catch (e) {
     Logger.log("Database not connected");

@@ -39,7 +39,12 @@ export const upload = (folder: "stones" | "categories" | "products") =>
       if (
         file.mimetype == "image/png" ||
         file.mimetype == "image/jpg" ||
-        file.mimetype == "image/jpeg"
+        file.mimetype == "image/jpeg" ||
+        file.mimetype == "image/webp" ||
+        file.mimetype == "image/gif" ||
+        file.mimetype == "image/svg" ||
+        file.mimetype == "image/tiff" ||
+        file.mimetype == "image/bmp"
       ) {
         cb(null, true);
       } else {

@@ -1,9 +1,5 @@
 import { Logger } from "../logs/logger";
 import { usersService } from "../services/users-service";
-import users from "./initial-data/initial-users";
-import products from "./initial-data/initial-products";
-import categories from "./initial-data/initial-categories";
-import stones from "./initial-data/initial-stones";
 import User from "./models/user-model";
 import Product from "./models/product-model";
 import Category from "./models/category-model";
@@ -65,6 +61,42 @@ const initDB = async () => {
     //           p.OriginalPrice - p.OriginalPrice * (p.discount / 100)),
     //         (p.OriginalPrice = undefined));
     //       console.log(p.originalPrice);
+    //       p.save();
+    //     } catch (e) {
+    //       Logger.log(e);
+    //     }
+    //   });
+    // });
+
+    // Stone.find().then((stones) => {
+    //   stones.forEach((s) => {
+    //     try {
+    //       s.descriptionText = "";
+    //       s.imageFileName = undefined;
+    //       console.log(s.descriptionText);
+    //       s.save();
+    //     } catch (e) {
+    //       Logger.log(e);
+    //     }
+    //   });
+    // });
+
+    // Stone.find().then((stones) => {
+    //   stones.forEach((s) => {
+    //     try {
+    //       s.zodiacs = [];
+    //       s.save();
+    //     } catch (e) {
+    //       Logger.log(e);
+    //     }
+    //   });
+    // });
+
+    // Product.find().then((products) => {
+    //   let index = 0;
+    //   products.forEach((p) => {
+    //     try {
+    //       p.positionIndex = index++;
     //       p.save();
     //     } catch (e) {
     //       Logger.log(e);

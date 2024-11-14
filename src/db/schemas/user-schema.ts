@@ -9,13 +9,10 @@ const userSchema = new Schema<IUser>({
   email: {
     type: String,
     required: true,
-    minlength: 6,
-    maxlength: 20,
     unique: true,
   },
-  password: { type: String, required: true, minlength: 7, maxlength: 300 },
-  phone: { type: String, required: true, minlength: 9, maxlength: 11 },
-
+  password: { type: String, required: true, minlength: 6 },
+  phone: { type: String, required: true, minlength: 9, maxlength: 14 },
   createdAt: { type: Date, default: new Date(), required: false },
   isAdmin: { required: true, type: Boolean, default: false },
 });
