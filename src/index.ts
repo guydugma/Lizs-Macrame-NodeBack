@@ -14,6 +14,7 @@ import rfs, { createStream } from "rotating-file-stream";
 import bodyParser from "body-parser";
 import morganBody from "morgan-body";
 import { Logger } from "./logs/logger";
+import { ordersRouter } from "./routes/orders";
 
 configDevEnv();
 const client = connect();
@@ -42,6 +43,7 @@ app.use("/api/users", usersRouter);
 app.use("/api/products", productsRouter);
 app.use("/api/stones", stonesRouter);
 app.use("/api/categories", categoriesRouter);
+app.use("/api/orders", ordersRouter);
 
 app.use(express.static("public/dist"));
 app.use("/public", express.static("public"));

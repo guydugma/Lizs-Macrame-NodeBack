@@ -4,6 +4,7 @@ import User from "./models/user-model";
 import Product from "./models/product-model";
 import Category from "./models/category-model";
 import Stone from "./models/stone-model";
+import Order from "./models/order-model";
 
 const initDB = async () => {
   try {
@@ -98,6 +99,17 @@ const initDB = async () => {
     //     try {
     //       p.positionIndex = index++;
     //       p.save();
+    //     } catch (e) {
+    //       Logger.log(e);
+    //     }
+    //   });
+    // });
+
+    // Order.find().then((orders) => {
+    //   orders.forEach((o) => {
+    //     try {
+    //       o.status = "התקבל";
+    //       o.save();
     //     } catch (e) {
     //       Logger.log(e);
     //     }

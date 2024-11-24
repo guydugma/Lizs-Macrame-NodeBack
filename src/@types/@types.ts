@@ -11,6 +11,15 @@ export type IAddress = {
   houseNumber: number;
 };
 
+export type IOrder = {
+  userId: string;
+  productsId: string[];
+  totalPrice: number;
+  address: IAddress;
+  isDelivery: boolean;
+  status: string;
+};
+
 export type IUserInput = {
   email: string;
   phone: string;
