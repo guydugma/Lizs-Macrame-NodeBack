@@ -15,6 +15,7 @@ const userSchema = new Schema<IUser>({
   phone: { type: String, required: true, minlength: 9, maxlength: 14 },
   createdAt: { type: Date, default: new Date(), required: false },
   isAdmin: { required: true, type: Boolean, default: false },
+  couponsUsed: { type: [String], default: [] },
 });
 
 export default userSchema;

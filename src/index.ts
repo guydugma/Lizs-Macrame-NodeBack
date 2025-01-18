@@ -15,6 +15,7 @@ import bodyParser from "body-parser";
 import morganBody from "morgan-body";
 import { Logger } from "./logs/logger";
 import { ordersRouter } from "./routes/orders";
+import { couponsRouter } from "./routes/coupons";
 
 configDevEnv();
 const client = connect();
@@ -44,6 +45,7 @@ app.use("/api/products", productsRouter);
 app.use("/api/stones", stonesRouter);
 app.use("/api/categories", categoriesRouter);
 app.use("/api/orders", ordersRouter);
+app.use("/api/coupons", couponsRouter);
 
 app.use(express.static("public/dist"));
 app.use("/public", express.static("public"));

@@ -1,0 +1,5357 @@
+
+Request: GET /api/orders at Sat Nov 30 2024 14:02:49 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 15.773 ms 
+
+Request: GET /api/orders at Sat Nov 30 2024 14:02:49 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 4.339 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:02:53 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 3.240 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:02:53 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 2.258 ms 
+
+Request: GET /public/products/1724680280610.jpg at Sat Nov 30 2024 14:02:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 5.026 ms 
+
+Request: GET /public/products/1724679146877.jpg at Sat Nov 30 2024 14:02:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 4.316 ms 
+
+Request: GET /public/products/1724679330997.jpg at Sat Nov 30 2024 14:02:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 4.150 ms 
+
+Request: GET /public/products/1724679930178.jpg at Sat Nov 30 2024 14:02:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 4.646 ms 
+
+Request: GET /public/products/1724679752305.jpg at Sat Nov 30 2024 14:02:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 6.118 ms 
+
+Request: GET / at Sat Nov 30 2024 14:04:41 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.822 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:04:41 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 9.633 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:04:41 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 11.868 ms 
+
+Request: GET / at Sat Nov 30 2024 14:04:41 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 4.401 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:04:41 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 30.436 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:04:41 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 31.534 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:04:41 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 33.779 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:04:41 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 14.007 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:05:46 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 3.728 ms 
+
+Request: GET / at Sat Nov 30 2024 14:05:46 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.605 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:05:46 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 4.826 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:05:46 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 5.248 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:05:46 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 7.065 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:05:46 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 3.929 ms 
+
+Request: GET / at Sat Nov 30 2024 14:05:46 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.959 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:05:46 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 7.018 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:05:46 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 10.169 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:05:46 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 7.480 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:06:13 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 2.949 ms 
+
+Request: GET / at Sat Nov 30 2024 14:06:13 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.950 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:06:13 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 5.090 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:06:13 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 9.694 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:06:13 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 7.773 ms 
+
+Request: GET / at Sat Nov 30 2024 14:06:13 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.465 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:06:13 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 13.874 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:06:13 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 16.084 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:06:13 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 17.392 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:06:13 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 21.525 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:08:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 6.538 ms 
+
+Request: GET / at Sat Nov 30 2024 14:08:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 5.254 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:08:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 9.477 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:08:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 10.763 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:08:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 14.475 ms 
+
+Request: GET / at Sat Nov 30 2024 14:08:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 7.783 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:08:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 15.419 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:08:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 17.850 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:08:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 14.678 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:08:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 6.316 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:10:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 2.439 ms 
+
+Request: GET / at Sat Nov 30 2024 14:10:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.753 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:10:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 5.848 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:10:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 5.606 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:10:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 6.671 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:10:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 3.351 ms 
+
+Request: GET / at Sat Nov 30 2024 14:10:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 7.616 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:10:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 9.557 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:10:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 9.990 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:10:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 12.491 ms 
+
+Request: GET /public/products/1724680280610.jpg at Sat Nov 30 2024 14:10:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.170 ms 
+
+Request: GET /public/products/1724679146877.jpg at Sat Nov 30 2024 14:10:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.164 ms 
+
+Request: GET /public/products/1724679752305.jpg at Sat Nov 30 2024 14:10:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.381 ms 
+
+Request: GET /public/products/1724679330997.jpg at Sat Nov 30 2024 14:10:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.767 ms 
+
+Request: GET /public/products/1724679930178.jpg at Sat Nov 30 2024 14:10:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 4.503 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:11:33 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 1.881 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:12:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 2.663 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:12:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 2.099 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:13:34 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 2.504 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:13:34 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 2.473 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:15:20 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 1.812 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:15:25 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 2.564 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:15:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 2.659 ms 
+
+Request: GET / at Sat Nov 30 2024 14:15:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.518 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:15:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 6.899 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:15:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 8.890 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:15:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 12.651 ms 
+
+Request: GET / at Sat Nov 30 2024 14:15:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.985 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:15:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 10.859 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:15:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 10.808 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:15:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 11.390 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:15:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 14.098 ms 
+
+Request: GET /public/products/1724680280610.jpg at Sat Nov 30 2024 14:15:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.204 ms 
+
+Request: GET /public/products/1724679146877.jpg at Sat Nov 30 2024 14:15:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.095 ms 
+
+Request: GET /public/products/1724679752305.jpg at Sat Nov 30 2024 14:15:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.614 ms 
+
+Request: GET /public/products/1724679330997.jpg at Sat Nov 30 2024 14:15:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.894 ms 
+
+Request: GET /public/products/1724679930178.jpg at Sat Nov 30 2024 14:15:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 4.559 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:19:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 27.057 ms 
+
+Request: GET / at Sat Nov 30 2024 14:19:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 30.869 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:19:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 33.972 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:19:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 37.184 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:19:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 40.740 ms 
+
+Request: GET / at Sat Nov 30 2024 14:19:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.350 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:19:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 27.878 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:19:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 31.037 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:19:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 23.492 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:19:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 23.656 ms 
+
+Request: GET /public/products/1724680280610.jpg at Sat Nov 30 2024 14:19:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.127 ms 
+
+Request: GET /public/products/1724679146877.jpg at Sat Nov 30 2024 14:19:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.068 ms 
+
+Request: GET /public/products/1724679752305.jpg at Sat Nov 30 2024 14:19:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.889 ms 
+
+Request: GET /public/products/1724679330997.jpg at Sat Nov 30 2024 14:19:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.251 ms 
+
+Request: GET /public/products/1724679930178.jpg at Sat Nov 30 2024 14:19:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.628 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:20:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 26.355 ms 
+
+Request: GET / at Sat Nov 30 2024 14:20:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 29.568 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:20:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 33.454 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:20:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 34.747 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:20:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 36.861 ms 
+
+Request: GET / at Sat Nov 30 2024 14:20:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 8.381 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:20:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 16.181 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:20:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 15.975 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:20:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 16.917 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:20:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 16.210 ms 
+
+Request: GET /public/products/1724680280610.jpg at Sat Nov 30 2024 14:20:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.698 ms 
+
+Request: GET /public/products/1724679146877.jpg at Sat Nov 30 2024 14:20:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.372 ms 
+
+Request: GET /public/products/1724679752305.jpg at Sat Nov 30 2024 14:20:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.460 ms 
+
+Request: GET /public/products/1724679330997.jpg at Sat Nov 30 2024 14:20:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.526 ms 
+
+Request: GET /public/products/1724679930178.jpg at Sat Nov 30 2024 14:20:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.244 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:20:30 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 4.150 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:20:30 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 3.992 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:20:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 29.296 ms 
+
+Request: GET / at Sat Nov 30 2024 14:20:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 30.325 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:20:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 36.241 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:20:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 37.875 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:20:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 54.018 ms 
+
+Request: GET / at Sat Nov 30 2024 14:20:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 9.253 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:20:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 16.481 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:20:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 15.582 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:20:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 17.086 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:20:48 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 19.094 ms 
+
+Request: GET /public/products/1724680280610.jpg at Sat Nov 30 2024 14:20:49 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.954 ms 
+
+Request: GET /public/products/1724679930178.jpg at Sat Nov 30 2024 14:20:49 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 5.028 ms 
+
+Request: GET /public/products/1724679146877.jpg at Sat Nov 30 2024 14:20:49 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.455 ms 
+
+Request: GET /public/products/1724679752305.jpg at Sat Nov 30 2024 14:20:49 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.877 ms 
+
+Request: GET /public/products/1724679330997.jpg at Sat Nov 30 2024 14:20:49 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 4.640 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:21:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 31.877 ms 
+
+Request: GET / at Sat Nov 30 2024 14:21:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 36.994 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:21:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 40.968 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:21:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 42.291 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:21:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 49.493 ms 
+
+Request: GET / at Sat Nov 30 2024 14:21:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.175 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:21:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 20.164 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:21:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 19.537 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:21:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 21.171 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:21:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 24.892 ms 
+
+Request: GET /public/products/1724680280610.jpg at Sat Nov 30 2024 14:21:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.612 ms 
+
+Request: GET /public/products/1724679146877.jpg at Sat Nov 30 2024 14:21:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.916 ms 
+
+Request: GET /public/products/1724679752305.jpg at Sat Nov 30 2024 14:21:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.649 ms 
+
+Request: GET /public/products/1724679330997.jpg at Sat Nov 30 2024 14:21:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.985 ms 
+
+Request: GET /public/products/1724679930178.jpg at Sat Nov 30 2024 14:21:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 5.212 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:24:01 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 22.914 ms 
+
+Request: GET / at Sat Nov 30 2024 14:24:01 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 25.443 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:24:01 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 29.274 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:24:01 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 32.429 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:24:01 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 38.071 ms 
+
+Request: GET / at Sat Nov 30 2024 14:24:01 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.765 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:24:01 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 14.851 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:24:01 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 11.883 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:24:01 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 12.651 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:24:01 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 13.918 ms 
+
+Request: GET /public/products/1724680280610.jpg at Sat Nov 30 2024 14:24:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.078 ms 
+
+Request: GET /public/products/1724679146877.jpg at Sat Nov 30 2024 14:24:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.494 ms 
+
+Request: GET /public/products/1724679752305.jpg at Sat Nov 30 2024 14:24:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.189 ms 
+
+Request: GET /public/products/1724679330997.jpg at Sat Nov 30 2024 14:24:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.417 ms 
+
+Request: GET /public/products/1724679930178.jpg at Sat Nov 30 2024 14:24:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.508 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:24:47 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 14.455 ms 
+
+Request: GET / at Sat Nov 30 2024 14:24:47 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 18.288 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:24:47 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 11.710 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:24:47 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 15.813 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:24:47 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 18.587 ms 
+
+Request: GET / at Sat Nov 30 2024 14:24:47 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 19.245 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:24:47 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 27.831 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:24:47 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 9.243 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:24:47 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 10.127 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:24:47 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 11.285 ms 
+
+Request: GET /public/products/1724680280610.jpg at Sat Nov 30 2024 14:24:47 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.656 ms 
+
+Request: GET /public/products/1724679146877.jpg at Sat Nov 30 2024 14:24:47 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.812 ms 
+
+Request: GET /public/products/1724679752305.jpg at Sat Nov 30 2024 14:24:47 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.978 ms 
+
+Request: GET /public/products/1724679330997.jpg at Sat Nov 30 2024 14:24:47 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 5.028 ms 
+
+Request: GET /public/products/1724679930178.jpg at Sat Nov 30 2024 14:24:47 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 6.809 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:26:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 8.363 ms 
+
+Request: GET / at Sat Nov 30 2024 14:26:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 8.150 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:26:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 16.453 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:26:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 9.736 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:26:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 10.532 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:26:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 4.778 ms 
+
+Request: GET / at Sat Nov 30 2024 14:26:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 4.659 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:26:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 6.751 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:26:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 5.262 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:26:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 6.128 ms 
+
+Request: GET /public/products/1724680280610.jpg at Sat Nov 30 2024 14:26:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.562 ms 
+
+Request: GET /public/products/1724679146877.jpg at Sat Nov 30 2024 14:26:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.921 ms 
+
+Request: GET /public/products/1724679752305.jpg at Sat Nov 30 2024 14:26:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 4.764 ms 
+
+Request: GET /public/products/1724679930178.jpg at Sat Nov 30 2024 14:26:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.764 ms 
+
+Request: GET /public/products/1724679330997.jpg at Sat Nov 30 2024 14:26:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 4.713 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:26:17 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 2.139 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:28:34 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 2.614 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:28:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 3.556 ms 
+
+Request: GET / at Sat Nov 30 2024 14:28:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.691 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:28:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 7.712 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:28:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 9.086 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:28:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 11.125 ms 
+
+Request: GET /api/orders/ at Sat Nov 30 2024 14:28:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "6738def594eb10186309cefb",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "ממתין לאישור",
+		"__v": 0
+	},
+	{
+		"_id": "6739017194eb10186309cf02",
+		"userId": "66cc8fb935338737ded851fd",
+		"productsId": [
+			"66cc90241508324d6c354db7",
+			"66cc90241508324d6c354dba"
+		],
+		"totalPrice": 910,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"isDelivery": false,
+		"status": "נשלח",
+		"__v": 0
+	}
+]
+Response: 304 7.031 ms 
+
+Request: GET / at Sat Nov 30 2024 14:28:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 7.403 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 14:28:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 13.903 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 14:28:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 13.644 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 14:28:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 16.762 ms 
+
+Request: GET /public/products/1724680280610.jpg at Sat Nov 30 2024 14:28:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.949 ms 
+
+Request: GET /public/products/1724679146877.jpg at Sat Nov 30 2024 14:28:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.604 ms 
+
+Request: GET /public/products/1724679752305.jpg at Sat Nov 30 2024 14:28:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.988 ms 
+
+Request: GET /public/products/1724679330997.jpg at Sat Nov 30 2024 14:28:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.111 ms 
+
+Request: GET /public/products/1724679930178.jpg at Sat Nov 30 2024 14:28:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.664 ms 
+
+Request: GET /api/orders/undefined at Sat Nov 30 2024 14:29:13 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"message": "Invalid object id",
+	"path": "_id",
+	"value": "undefined"
+}
+Response: 400 2.185 ms 
+
+Request: GET /api/orders/undefined at Sat Nov 30 2024 14:30:42 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"message": "Invalid object id",
+	"path": "_id",
+	"value": "undefined"
+}
+Response: 400 1.075 ms 
+
+Request: GET /api/orders/undefined at Sat Nov 30 2024 14:31:12 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"message": "Invalid object id",
+	"path": "_id",
+	"value": "undefined"
+}
+Response: 400 0.506 ms 
+
+Request: GET /api/orders/6738def594eb10186309cefb at Sat Nov 30 2024 14:32:53 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "6738def594eb10186309cefb",
+	"userId": "66cc8fb935338737ded851fd",
+	"productsId": [
+		"66cc90241508324d6c354db7",
+		"66cc90241508324d6c354dba"
+	],
+	"totalPrice": 910,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"isDelivery": false,
+	"status": "ממתין לאישור",
+	"__v": 0
+}
+Response: 304 2.846 ms 
+
+Request: GET /api/orders/6738def594eb10186309cefb at Sat Nov 30 2024 14:32:56 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "6738def594eb10186309cefb",
+	"userId": "66cc8fb935338737ded851fd",
+	"productsId": [
+		"66cc90241508324d6c354db7",
+		"66cc90241508324d6c354dba"
+	],
+	"totalPrice": 910,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"isDelivery": false,
+	"status": "ממתין לאישור",
+	"__v": 0
+}
+Response: 304 2.090 ms 
+
+Request: GET /api/orders/6738def594eb10186309cefb at Sat Nov 30 2024 14:33:46 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "6738def594eb10186309cefb",
+	"userId": "66cc8fb935338737ded851fd",
+	"productsId": [
+		"66cc90241508324d6c354db7",
+		"66cc90241508324d6c354dba"
+	],
+	"totalPrice": 910,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"isDelivery": false,
+	"status": "ממתין לאישור",
+	"__v": 0
+}
+Response: 304 3.145 ms 
+
+Request: GET /api/orders/6738def594eb10186309cefb at Sat Nov 30 2024 14:33:46 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "6738def594eb10186309cefb",
+	"userId": "66cc8fb935338737ded851fd",
+	"productsId": [
+		"66cc90241508324d6c354db7",
+		"66cc90241508324d6c354dba"
+	],
+	"totalPrice": 910,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"isDelivery": false,
+	"status": "ממתין לאישור",
+	"__v": 0
+}
+Response: 304 2.458 ms 
+
+Request: GET /api/orders/6738def594eb10186309cefb at Sat Nov 30 2024 19:04:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "6738def594eb10186309cefb",
+	"userId": "66cc8fb935338737ded851fd",
+	"productsId": [
+		"66cc90241508324d6c354db7",
+		"66cc90241508324d6c354dba"
+	],
+	"totalPrice": 910,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"isDelivery": false,
+	"status": "ממתין לאישור",
+	"__v": 0
+}
+Response: 304 8.738 ms 
+
+Request: GET / at Sat Nov 30 2024 19:04:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 8.132 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 19:04:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 8.758 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 19:04:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 10.960 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 19:04:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 16.946 ms 
+
+Request: GET / at Sat Nov 30 2024 19:04:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 4.486 ms 
+
+Request: GET /api/orders/6738def594eb10186309cefb at Sat Nov 30 2024 19:04:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "6738def594eb10186309cefb",
+	"userId": "66cc8fb935338737ded851fd",
+	"productsId": [
+		"66cc90241508324d6c354db7",
+		"66cc90241508324d6c354dba"
+	],
+	"totalPrice": 910,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"isDelivery": false,
+	"status": "ממתין לאישור",
+	"__v": 0
+}
+Response: 304 20.752 ms 
+
+Request: GET /api/products at Sat Nov 30 2024 19:04:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 25.704 ms 
+
+Request: GET /api/stones at Sat Nov 30 2024 19:04:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 23.365 ms 
+
+Request: GET /api/categories at Sat Nov 30 2024 19:04:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280610.jpg",
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1725450626782.jpg",
+			"1728390743395.jpg",
+			"1728390968682.jpg",
+			"1728809302122.png",
+			"1728810017677.bmp",
+			"1728810017767.png",
+			"1731247801786.jpg",
+			"1731247833352.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"eng
+...
+Response: 304 22.133 ms 
+
+Request: GET /public/products/1724679930178.jpg at Sat Nov 30 2024 19:04:39 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.572 ms 
+
+Request: GET /public/products/1724679752305.jpg at Sat Nov 30 2024 19:04:39 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.880 ms 
+
+Request: GET /public/products/1724679330997.jpg at Sat Nov 30 2024 19:04:39 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.846 ms 
+
+Request: GET /public/products/1724679146877.jpg at Sat Nov 30 2024 19:04:39 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 4.242 ms 
+
+Request: GET /public/products/1724680280610.jpg at Sat Nov 30 2024 19:04:39 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 4.652 ms 

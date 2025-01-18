@@ -1,0 +1,2629 @@
+
+Request: GET /api/orders/676d4f49f6370b4692608aa6 at Mon Dec 30 2024 14:28:25 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "676d4f49f6370b4692608aa6",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "בוטל",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 10.900 ms 
+
+Request: GET /api/stones at Mon Dec 30 2024 14:28:25 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 15.061 ms 
+
+Request: GET /api/categories at Mon Dec 30 2024 14:28:25 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1731247801786.jpg",
+			"1731247833352.jpg",
+			"1734775840241.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"1724679330997.jpg",
+			"1724679331021.jpg",
+			"1724679331024.jpg",
+			"1724679331026.jpg",
+			"17
+...
+Response: 304 15.754 ms 
+
+Request: GET /api/products at Mon Dec 30 2024 14:28:25 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 17.073 ms 
+
+Request: GET / at Mon Dec 30 2024 14:28:25 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 0.966 ms 
+
+Request: GET /api/stones at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 3.941 ms 
+
+Request: GET /public/products/1724679330997.jpg at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 9.459 ms 
+
+Request: GET /public/products/1724679930178.jpg at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 22.509 ms 
+
+Request: GET /public/products/1731247801786.jpg at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 2.400 ms 
+
+Request: GET /public/products/1731247833352.jpg at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 4.210 ms 
+
+Request: GET /public/products/1724680280611.jpg at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 19.747 ms 
+
+Request: GET /public/products/1724679752305.jpg at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 7.580 ms 
+
+Request: GET /public/products/1724679146877.jpg at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 5.089 ms 
+
+Request: GET /public/products/1734775840241.jpg at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 5.615 ms 
+
+Request: GET /api/stones at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 8.213 ms 
+
+Request: GET /public/products/undefined at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 10.489 ms 
+
+Request: GET /public/products/1724679930178.jpg at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 6.683 ms 
+
+Request: GET /public/products/1724679330997.jpg at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 2.056 ms 
+
+Request: GET /public/products/1724680280611.jpg at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 2.201 ms 
+
+Request: GET /public/products/1731247801786.jpg at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 4.534 ms 
+
+Request: GET /public/products/1731247833352.jpg at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 2.726 ms 
+
+Request: GET /public/products/1724679752305.jpg at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 2.755 ms 
+
+Request: GET /public/products/1724679146877.jpg at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 4.289 ms 
+
+Request: GET /public/products/1734775840241.jpg at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 1.934 ms 
+
+Request: GET /public/products/undefined at Mon Dec 30 2024 14:29:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Response: 304 0.809 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:30:04 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"email": 1
+	},
+	"keyValue": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 500 258.972 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:30:13 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"email": 1
+	},
+	"keyValue": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 500 218.684 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:30:32 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"email": 1
+	},
+	"keyValue": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 500 235.013 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:31:46 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"email": 1
+	},
+	"keyValue": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 500 247.885 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:32:21 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"email": 1
+	},
+	"keyValue": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 500 254.368 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:32:36 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"email": 1
+	},
+	"keyValue": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 500 248.128 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:32:55 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"email": 1
+	},
+	"keyValue": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 500 239.077 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:35:07 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"email": 1
+	},
+	"keyValue": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 500 246.864 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:35:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"email": 1
+	},
+	"keyValue": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 500 247.968 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:36:00 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"email": 1
+	},
+	"keyValue": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 500 245.124 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:36:31 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"email": 1
+	},
+	"keyValue": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 500 254.088 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:36:56 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"email": 1
+	},
+	"keyValue": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 500 298.198 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:37:44 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"email": 1
+	},
+	"keyValue": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 500 252.117 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:38:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"email": 1
+	},
+	"keyValue": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 500 253.891 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:44:55 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"email": 1
+	},
+	"keyValue": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 500 253.174 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:45:10 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"email": 1
+	},
+	"keyValue": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 500 246.242 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:47:08 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"email": 1
+	},
+	"keyValue": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 500 351.425 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:47:44 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"email": 1
+	},
+	"keyValue": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 500 243.472 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:49:38 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"message": "duplicate key - must be unique",
+	"value": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 400 234.404 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:51:33 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"message": "duplicate key - must be unique",
+	"value": {
+		"errorResponse": {
+			"index": 0,
+			"code": 11000,
+			"errmsg": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }",
+			"keyPattern": {
+				"email": 1
+			},
+			"keyValue": {
+				"email": "admin@gmail.com"
+			}
+		},
+		"index": 0,
+		"code": 11000,
+		"keyPattern": {
+			"email": 1
+		},
+		"keyValue": {
+			"email": "admin@gmail.com"
+		}
+	}
+}
+Response: 400 231.693 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:52:11 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"message": "duplicate key - must be unique"
+}
+Response: 400 233.715 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:53:15 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"message": "duplicate key - must be unique",
+	"value": "E11000 duplicate key error collection: LizMacrame.users index: email_1 dup key: { email: \"admin@gmail.com\" }"
+}
+Response: 400 237.245 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:53:59 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"message": "duplicate key - must be unique"
+}
+Response: 400 232.159 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:54:37 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"message": "duplicate key - must be unique",
+	"value": "MongoServerError"
+}
+Response: 400 243.941 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:55:25 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"message": "duplicate key - must be unique",
+	"value": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 400 365.812 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:56:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"message": "duplicate key - must be unique",
+	"value": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 400 217.006 ms 
+
+Request: POST /api/users at Mon Dec 30 2024 14:57:07 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"name": {
+		"first": "עליזה",
+		"last": "וולף"
+	},
+	"phone": "0539619836",
+	"email": "admin@gmail.com",
+	"password": "Abc!123Abc",
+	"address": {
+		"country": "Israel",
+		"city": "חדרה",
+		"street": "הנביאים",
+		"houseNumber": "3",
+		"zip": "9745098"
+	},
+	"isAdmin": false
+}
+Response Body:
+{
+	"message": "duplicate key - must be unique",
+	"value": {
+		"email": "admin@gmail.com"
+	}
+}
+Response: 400 382.946 ms 
+
+Request: GET /public/products/1724679930178.jpg at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.789 ms 
+
+Request: GET /public/products/1724679330997.jpg at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.962 ms 
+
+Request: GET /public/products/1724680280611.jpg at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.103 ms 
+
+Request: GET /public/products/1731247801786.jpg at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.120 ms 
+
+Request: GET /public/products/1731247833352.jpg at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 10.453 ms 
+
+Request: GET /public/products/1724679752305.jpg at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 10.661 ms 
+
+Request: GET /public/products/1724679146877.jpg at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 9.458 ms 
+
+Request: GET /api/stones at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 14.588 ms 
+
+Request: GET /public/products/1734775840241.jpg at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 11.510 ms 
+
+Request: GET /public/products/undefined at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 15.579 ms 
+
+Request: GET /public/products/1724679930178.jpg at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 8.028 ms 
+
+Request: GET /public/products/1724679330997.jpg at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 10.496 ms 
+
+Request: GET /public/products/1724680280611.jpg at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 11.668 ms 
+
+Request: GET /public/products/1731247801786.jpg at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 14.866 ms 
+
+Request: GET /public/products/1731247833352.jpg at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 11.958 ms 
+
+Request: GET /public/products/1724679752305.jpg at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 8.517 ms 
+
+Request: GET /public/products/1724679146877.jpg at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 9.269 ms 
+
+Request: GET /api/stones at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 13.140 ms 
+
+Request: GET /public/products/1734775840241.jpg at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 9.502 ms 
+
+Request: GET /public/products/undefined at Tue Dec 31 2024 06:34:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 14.513 ms 
+
+Request: GET /public/products/1724679930178.jpg at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.448 ms 
+
+Request: GET /public/products/1724679330997.jpg at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.532 ms 
+
+Request: GET /public/products/1724680280611.jpg at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.331 ms 
+
+Request: GET /public/products/1731247801786.jpg at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.735 ms 
+
+Request: GET /public/products/1731247833352.jpg at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.336 ms 
+
+Request: GET /public/products/1724679752305.jpg at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.866 ms 
+
+Request: GET /public/products/1724679146877.jpg at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.891 ms 
+
+Request: GET /public/products/1734775840241.jpg at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.101 ms 
+
+Request: GET /public/products/undefined at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.352 ms 
+
+Request: GET /api/stones at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 4.266 ms 
+
+Request: GET /public/products/1724679930178.jpg at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.458 ms 
+
+Request: GET /public/products/1724679330997.jpg at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.553 ms 
+
+Request: GET /public/products/1724680280611.jpg at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.907 ms 
+
+Request: GET /public/products/1731247801786.jpg at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.697 ms 
+
+Request: GET /public/products/1731247833352.jpg at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.702 ms 
+
+Request: GET /public/products/1724679752305.jpg at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.220 ms 
+
+Request: GET /public/products/1734775840241.jpg at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 4.229 ms 
+
+Request: GET /public/products/1724679146877.jpg at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 6.841 ms 
+
+Request: GET /api/stones at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 4.320 ms 
+
+Request: GET /public/products/undefined at Tue Dec 31 2024 06:34:35 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 14.538 ms 
+
+Request: GET / at Tue Dec 31 2024 06:38:44 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.855 ms 
+
+Request: GET /api/products at Tue Dec 31 2024 06:38:44 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 11.554 ms 
+
+Request: GET /api/stones at Tue Dec 31 2024 06:38:44 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 12.371 ms 
+
+Request: GET /api/categories at Tue Dec 31 2024 06:38:44 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1731247801786.jpg",
+			"1731247833352.jpg",
+			"1734775840241.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"1724679330997.jpg",
+			"1724679331021.jpg",
+			"1724679331024.jpg",
+			"1724679331026.jpg",
+			"17
+...
+Response: 304 14.005 ms 
+
+Request: GET / at Tue Dec 31 2024 06:38:44 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.670 ms 
+
+Request: GET /api/products at Tue Dec 31 2024 06:38:44 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 10.500 ms 
+
+Request: GET /api/stones at Tue Dec 31 2024 06:38:44 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 22.126 ms 
+
+Request: GET /api/categories at Tue Dec 31 2024 06:38:44 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1731247801786.jpg",
+			"1731247833352.jpg",
+			"1734775840241.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"1724679330997.jpg",
+			"1724679331021.jpg",
+			"1724679331024.jpg",
+			"1724679331026.jpg",
+			"17
+...
+Response: 304 29.788 ms 
+
+Request: GET /public/products/1724679146877.jpg at Tue Dec 31 2024 06:38:44 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 128.867 ms 
+
+Request: GET /public/products/1724680280611.jpg at Tue Dec 31 2024 06:38:44 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 131.975 ms 
+
+Request: GET /public/products/1724679752305.jpg at Tue Dec 31 2024 06:38:44 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 129.269 ms 
+
+Request: GET /public/products/1724679330997.jpg at Tue Dec 31 2024 06:38:44 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 132.433 ms 
+
+Request: GET /public/products/1724679930178.jpg at Tue Dec 31 2024 06:38:44 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 140.324 ms 
+
+Request: GET / at Tue Dec 31 2024 06:40:12 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 6.436 ms 
+
+Request: GET /api/products at Tue Dec 31 2024 06:40:12 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 14.043 ms 
+
+Request: GET /api/stones at Tue Dec 31 2024 06:40:12 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 9.048 ms 
+
+Request: GET /api/categories at Tue Dec 31 2024 06:40:12 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1731247801786.jpg",
+			"1731247833352.jpg",
+			"1734775840241.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"1724679330997.jpg",
+			"1724679331021.jpg",
+			"1724679331024.jpg",
+			"1724679331026.jpg",
+			"17
+...
+Response: 304 6.896 ms 
+
+Request: GET / at Tue Dec 31 2024 06:40:12 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 5.010 ms 
+
+Request: GET /api/products at Tue Dec 31 2024 06:40:12 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 9.494 ms 
+
+Request: GET /api/stones at Tue Dec 31 2024 06:40:12 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 11.391 ms 
+
+Request: GET /api/categories at Tue Dec 31 2024 06:40:12 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1731247801786.jpg",
+			"1731247833352.jpg",
+			"1734775840241.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"1724679330997.jpg",
+			"1724679331021.jpg",
+			"1724679331024.jpg",
+			"1724679331026.jpg",
+			"17
+...
+Response: 304 12.417 ms 
+
+Request: GET /public/products/1724680280611.jpg at Tue Dec 31 2024 06:40:12 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.635 ms 
+
+Request: GET /public/products/1724679146877.jpg at Tue Dec 31 2024 06:40:12 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.102 ms 
+
+Request: GET /public/products/1724679752305.jpg at Tue Dec 31 2024 06:40:12 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.428 ms 
+
+Request: GET /public/products/1724679330997.jpg at Tue Dec 31 2024 06:40:12 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.942 ms 
+
+Request: GET /public/products/1724679930178.jpg at Tue Dec 31 2024 06:40:12 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.002 ms 
+
+Request: GET /api/orders at Tue Dec 31 2024 06:43:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb835338737ded851f4",
+		"name": {
+			"first": "Regular",
+			"last": "User",
+			"_id": "66cc8fb835338737ded851f5"
+		},
+		"phone": "0507123012",
+		"email": "reg@gmail.com",
+		"productsId": [
+			"6766942047cf2c8545af80e7"
+		],
+		"totalPrice": 35,
+		"address": {
+			"country": "Israel",
+			"city": "Tel aviv",
+			"street": "Shoham",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb835338737ded851f6"
+		},
+		"isDelivery": true,
+		"status": "התקבל",
+		"serial": "0",
+		"createdAt": "2024-08-26T14:22:48.254Z",
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded851fd",
+		"name": {
+			"first": "Admin",
+			"last": "User",
+			"_id": "66cc8fb935338737ded851fe"
+		},
+		"phone": "050-8123012",
+		"email": "admin@gmail.com",
+		"productsId": [
+			"676aecb14719a5d443119b77"
+		],
+		"totalPrice": 40,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"userId": "66cc8f
+...
+Response: 304 4.353 ms 
+
+Request: GET /api/orders at Tue Dec 31 2024 06:44:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb835338737ded851f4",
+		"name": {
+			"first": "Regular",
+			"last": "User",
+			"_id": "66cc8fb835338737ded851f5"
+		},
+		"phone": "0507123012",
+		"email": "reg@gmail.com",
+		"productsId": [
+			"6766942047cf2c8545af80e7"
+		],
+		"totalPrice": 35,
+		"address": {
+			"country": "Israel",
+			"city": "Tel aviv",
+			"street": "Shoham",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb835338737ded851f6"
+		},
+		"isDelivery": true,
+		"status": "התקבל",
+		"serial": "0",
+		"createdAt": "2024-08-26T14:22:48.254Z",
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded851fd",
+		"name": {
+			"first": "Admin",
+			"last": "User",
+			"_id": "66cc8fb935338737ded851fe"
+		},
+		"phone": "050-8123012",
+		"email": "admin@gmail.com",
+		"productsId": [
+			"676aecb14719a5d443119b77"
+		],
+		"totalPrice": 40,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"userId": "66cc8f
+...
+Response: 304 2.766 ms 
+
+Request: GET /api/orders at Tue Dec 31 2024 06:44:28 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb835338737ded851f4",
+		"name": {
+			"first": "Regular",
+			"last": "User",
+			"_id": "66cc8fb835338737ded851f5"
+		},
+		"phone": "0507123012",
+		"email": "reg@gmail.com",
+		"productsId": [
+			"6766942047cf2c8545af80e7"
+		],
+		"totalPrice": 35,
+		"address": {
+			"country": "Israel",
+			"city": "Tel aviv",
+			"street": "Shoham",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb835338737ded851f6"
+		},
+		"isDelivery": true,
+		"status": "התקבל",
+		"serial": "0",
+		"createdAt": "2024-08-26T14:22:48.254Z",
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded851fd",
+		"name": {
+			"first": "Admin",
+			"last": "User",
+			"_id": "66cc8fb935338737ded851fe"
+		},
+		"phone": "050-8123012",
+		"email": "admin@gmail.com",
+		"productsId": [
+			"676aecb14719a5d443119b77"
+		],
+		"totalPrice": 40,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"userId": "66cc8f
+...
+Response: 304 2.861 ms 
+
+Request: GET /api/orders at Tue Dec 31 2024 06:44:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb835338737ded851f4",
+		"name": {
+			"first": "Regular",
+			"last": "User",
+			"_id": "66cc8fb835338737ded851f5"
+		},
+		"phone": "0507123012",
+		"email": "reg@gmail.com",
+		"productsId": [
+			"6766942047cf2c8545af80e7"
+		],
+		"totalPrice": 35,
+		"address": {
+			"country": "Israel",
+			"city": "Tel aviv",
+			"street": "Shoham",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb835338737ded851f6"
+		},
+		"isDelivery": true,
+		"status": "התקבל",
+		"serial": "0",
+		"createdAt": "2024-08-26T14:22:48.254Z",
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded851fd",
+		"name": {
+			"first": "Admin",
+			"last": "User",
+			"_id": "66cc8fb935338737ded851fe"
+		},
+		"phone": "050-8123012",
+		"email": "admin@gmail.com",
+		"productsId": [
+			"676aecb14719a5d443119b77"
+		],
+		"totalPrice": 40,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"userId": "66cc8f
+...
+Response: 304 4.256 ms 
+
+Request: GET /api/orders at Tue Dec 31 2024 06:44:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb835338737ded851f4",
+		"name": {
+			"first": "Regular",
+			"last": "User",
+			"_id": "66cc8fb835338737ded851f5"
+		},
+		"phone": "0507123012",
+		"email": "reg@gmail.com",
+		"productsId": [
+			"6766942047cf2c8545af80e7"
+		],
+		"totalPrice": 35,
+		"address": {
+			"country": "Israel",
+			"city": "Tel aviv",
+			"street": "Shoham",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb835338737ded851f6"
+		},
+		"isDelivery": true,
+		"status": "התקבל",
+		"serial": "0",
+		"createdAt": "2024-08-26T14:22:48.254Z",
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded851fd",
+		"name": {
+			"first": "Admin",
+			"last": "User",
+			"_id": "66cc8fb935338737ded851fe"
+		},
+		"phone": "050-8123012",
+		"email": "admin@gmail.com",
+		"productsId": [
+			"676aecb14719a5d443119b77"
+		],
+		"totalPrice": 40,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"userId": "66cc8f
+...
+Response: 304 3.780 ms 
+
+Request: GET / at Tue Dec 31 2024 06:45:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 32.127 ms 
+
+Request: GET /api/products at Tue Dec 31 2024 06:45:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 222.330 ms 
+
+Request: GET /api/categories at Tue Dec 31 2024 06:45:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1731247801786.jpg",
+			"1731247833352.jpg",
+			"1734775840241.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"1724679330997.jpg",
+			"1724679331021.jpg",
+			"1724679331024.jpg",
+			"1724679331026.jpg",
+			"17
+...
+Response: 304 215.778 ms 
+
+Request: GET /api/stones at Tue Dec 31 2024 06:45:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 236.778 ms 
+
+Request: GET / at Tue Dec 31 2024 06:45:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 14.950 ms 
+
+Request: GET /api/products at Tue Dec 31 2024 06:45:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 22.262 ms 
+
+Request: GET /api/categories at Tue Dec 31 2024 06:45:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1731247801786.jpg",
+			"1731247833352.jpg",
+			"1734775840241.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"1724679330997.jpg",
+			"1724679331021.jpg",
+			"1724679331024.jpg",
+			"1724679331026.jpg",
+			"17
+...
+Response: 304 25.008 ms 
+
+Request: GET /api/stones at Tue Dec 31 2024 06:45:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 23.982 ms 
+
+Request: GET /public/products/1724680280611.jpg at Tue Dec 31 2024 06:45:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.500 ms 
+
+Request: GET /public/products/1724679146877.jpg at Tue Dec 31 2024 06:45:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.823 ms 
+
+Request: GET /public/products/1724679752305.jpg at Tue Dec 31 2024 06:45:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.606 ms 
+
+Request: GET /public/products/1724679930178.jpg at Tue Dec 31 2024 06:45:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.732 ms 
+
+Request: GET /public/products/1724679330997.jpg at Tue Dec 31 2024 06:45:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.530 ms 
+
+Request: GET /api/orders at Tue Dec 31 2024 06:45:04 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb835338737ded851f4",
+		"name": {
+			"first": "Regular",
+			"last": "User",
+			"_id": "66cc8fb835338737ded851f5"
+		},
+		"phone": "0507123012",
+		"email": "reg@gmail.com",
+		"productsId": [
+			"6766942047cf2c8545af80e7"
+		],
+		"totalPrice": 35,
+		"address": {
+			"country": "Israel",
+			"city": "Tel aviv",
+			"street": "Shoham",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb835338737ded851f6"
+		},
+		"isDelivery": true,
+		"status": "התקבל",
+		"serial": "0",
+		"createdAt": "2024-08-26T14:22:48.254Z",
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded851fd",
+		"name": {
+			"first": "Admin",
+			"last": "User",
+			"_id": "66cc8fb935338737ded851fe"
+		},
+		"phone": "050-8123012",
+		"email": "admin@gmail.com",
+		"productsId": [
+			"676aecb14719a5d443119b77"
+		],
+		"totalPrice": 40,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"userId": "66cc8f
+...
+Response: 304 4.000 ms 
+
+Request: GET /api/orders at Tue Dec 31 2024 06:45:04 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb835338737ded851f4",
+		"name": {
+			"first": "Regular",
+			"last": "User",
+			"_id": "66cc8fb835338737ded851f5"
+		},
+		"phone": "0507123012",
+		"email": "reg@gmail.com",
+		"productsId": [
+			"6766942047cf2c8545af80e7"
+		],
+		"totalPrice": 35,
+		"address": {
+			"country": "Israel",
+			"city": "Tel aviv",
+			"street": "Shoham",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb835338737ded851f6"
+		},
+		"isDelivery": true,
+		"status": "התקבל",
+		"serial": "0",
+		"createdAt": "2024-08-26T14:22:48.254Z",
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded851fd",
+		"name": {
+			"first": "Admin",
+			"last": "User",
+			"_id": "66cc8fb935338737ded851fe"
+		},
+		"phone": "050-8123012",
+		"email": "admin@gmail.com",
+		"productsId": [
+			"676aecb14719a5d443119b77"
+		],
+		"totalPrice": 40,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"userId": "66cc8f
+...
+Response: 304 4.083 ms 
+
+Request: GET /api/orders at Tue Dec 31 2024 06:45:34 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb835338737ded851f4",
+		"name": {
+			"first": "Regular",
+			"last": "User",
+			"_id": "66cc8fb835338737ded851f5"
+		},
+		"phone": "0507123012",
+		"email": "reg@gmail.com",
+		"productsId": [
+			"6766942047cf2c8545af80e7"
+		],
+		"totalPrice": 35,
+		"address": {
+			"country": "Israel",
+			"city": "Tel aviv",
+			"street": "Shoham",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb835338737ded851f6"
+		},
+		"isDelivery": true,
+		"status": "התקבל",
+		"serial": "0",
+		"createdAt": "2024-08-26T14:22:48.254Z",
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded851fd",
+		"name": {
+			"first": "Admin",
+			"last": "User",
+			"_id": "66cc8fb935338737ded851fe"
+		},
+		"phone": "050-8123012",
+		"email": "admin@gmail.com",
+		"productsId": [
+			"676aecb14719a5d443119b77"
+		],
+		"totalPrice": 40,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"userId": "66cc8f
+...
+Response: 304 2.817 ms 
+
+Request: GET /api/orders at Tue Dec 31 2024 06:45:34 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb835338737ded851f4",
+		"name": {
+			"first": "Regular",
+			"last": "User",
+			"_id": "66cc8fb835338737ded851f5"
+		},
+		"phone": "0507123012",
+		"email": "reg@gmail.com",
+		"productsId": [
+			"6766942047cf2c8545af80e7"
+		],
+		"totalPrice": 35,
+		"address": {
+			"country": "Israel",
+			"city": "Tel aviv",
+			"street": "Shoham",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb835338737ded851f6"
+		},
+		"isDelivery": true,
+		"status": "התקבל",
+		"serial": "0",
+		"createdAt": "2024-08-26T14:22:48.254Z",
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded851fd",
+		"name": {
+			"first": "Admin",
+			"last": "User",
+			"_id": "66cc8fb935338737ded851fe"
+		},
+		"phone": "050-8123012",
+		"email": "admin@gmail.com",
+		"productsId": [
+			"676aecb14719a5d443119b77"
+		],
+		"totalPrice": 40,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"userId": "66cc8f
+...
+Response: 304 3.371 ms 
+
+Request: GET /api/orders at Tue Dec 31 2024 06:48:42 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb835338737ded851f4",
+		"name": {
+			"first": "Regular",
+			"last": "User",
+			"_id": "66cc8fb835338737ded851f5"
+		},
+		"phone": "0507123012",
+		"email": "reg@gmail.com",
+		"productsId": [
+			"6766942047cf2c8545af80e7"
+		],
+		"totalPrice": 35,
+		"address": {
+			"country": "Israel",
+			"city": "Tel aviv",
+			"street": "Shoham",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb835338737ded851f6"
+		},
+		"isDelivery": true,
+		"status": "התקבל",
+		"serial": "0",
+		"createdAt": "2024-08-26T14:22:48.254Z",
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded851fd",
+		"name": {
+			"first": "Admin",
+			"last": "User",
+			"_id": "66cc8fb935338737ded851fe"
+		},
+		"phone": "050-8123012",
+		"email": "admin@gmail.com",
+		"productsId": [
+			"676aecb14719a5d443119b77"
+		],
+		"totalPrice": 40,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"userId": "66cc8f
+...
+Response: 304 2.847 ms 

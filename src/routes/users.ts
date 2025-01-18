@@ -6,10 +6,11 @@ import { isAdminOrSelf } from "../middleware/is-admin-or-self";
 import { isSelf } from "../middleware/is-self";
 import { Logger } from "../logs/logger";
 import { isUser } from "../middleware/is-user";
+import { MongoServerError } from "mongodb";
 
 const router = Router();
 
-router.put("/:id",...isUser, ...isSelf, validateUser, async (req, res, next) => {
+router.put("/:id", ...isSelf, async (req, res, next) => {
   try {
     const saved = await usersService.updateUser(req.body, req.payload._id);
     res.json(saved);
@@ -18,7 +19,7 @@ router.put("/:id",...isUser, ...isSelf, validateUser, async (req, res, next) => 
   }
 });
 
-router.get("/:id",...isUser, ...isAdminOrSelf, async (req, res, next) => {
+router.get("/:id", ...isUser, ...isAdminOrSelf, async (req, res, next) => {
   try {
     const user = await usersService.getUserById(req.params.id);
     res.json(user);
@@ -41,9 +42,7 @@ router.post("/login", validateLogin, async (req, res, next) => {
     const jwt = await usersService.loginUser(req.body);
     res.send(jwt);
   } catch (e) {
-
     next(e);
-
   }
 });
 
@@ -58,7 +57,7 @@ router.post("/", validateUser, async (req, res, next) => {
   }
 });
 
-router.delete("/:id",...isUser, ...isAdminOrSelf, async (req, res, next) => {
+router.delete("/:id", ...isUser, ...isAdminOrSelf, async (req, res, next) => {
   try {
     const user = await usersService.deleteUser(req.params.id);
     res.json(user);

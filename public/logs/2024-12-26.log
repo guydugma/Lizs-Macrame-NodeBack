@@ -1,0 +1,1977 @@
+
+Request: POST /api/orders at Thu Dec 26 2024 14:10:00 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"headers": {
+		"x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmNjOGZiOTM1MzM4NzM3ZGVkODUxZmQiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MzUwNjA2Mjh9._cWaL7xN0V9tRECYtZx1q-F-AHCIuZGenEJcTOw3Pu8"
+	},
+	"status": "התקבל",
+	"serial": "Order.countDocuments({})"
+}
+Response Body:
+{
+	"errors": {
+		"isDelivery": {
+			"name": "ValidatorError",
+			"message": "Path `isDelivery` is required.",
+			"properties": {
+				"message": "Path `isDelivery` is required.",
+				"type": "required",
+				"path": "isDelivery"
+			},
+			"kind": "required",
+			"path": "isDelivery"
+		},
+		"totalPrice": {
+			"name": "ValidatorError",
+			"message": "Path `totalPrice` is required.",
+			"properties": {
+				"message": "Path `totalPrice` is required.",
+				"type": "required",
+				"path": "totalPrice"
+			},
+			"kind": "required",
+			"path": "totalPrice"
+		},
+		"email": {
+			"name": "ValidatorError",
+			"message": "Path `email` is required.",
+			"properties": {
+				"message": "Path `email` is required.",
+				"type": "required",
+				"path": "email"
+			},
+			"kind": "required",
+			"path": "email"
+		},
+		"phone": {
+			"name": "ValidatorError",
+			"message": "Path `phone` is required.",
+			"properties": {
+				"message": "Path `phone` is required.",
+				"type": "required",
+				"path": "phone"
+			},
+		
+...
+Response: 500 21.707 ms 
+
+Request: GET /api/users/66cc8fb935338737ded851fd at Thu Dec 26 2024 14:11:20 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "66cc8fb935338737ded851fd",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"email": "admin@gmail.com",
+	"phone": "050-8123012",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"isAdmin": true,
+	"__v": 1,
+	"couponsUsed": []
+}
+Response: 304 17.139 ms 
+
+Request: POST /api/orders at Thu Dec 26 2024 14:11:23 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"headers": {
+		"x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmNjOGZiOTM1MzM4NzM3ZGVkODUxZmQiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MzUwNjA2Mjh9._cWaL7xN0V9tRECYtZx1q-F-AHCIuZGenEJcTOw3Pu8"
+	},
+	"status": "התקבל",
+	"serial": "Order.countDocuments({})"
+}
+Response Body:
+{
+	"errors": {
+		"isDelivery": {
+			"name": "ValidatorError",
+			"message": "Path `isDelivery` is required.",
+			"properties": {
+				"message": "Path `isDelivery` is required.",
+				"type": "required",
+				"path": "isDelivery"
+			},
+			"kind": "required",
+			"path": "isDelivery"
+		},
+		"totalPrice": {
+			"name": "ValidatorError",
+			"message": "Path `totalPrice` is required.",
+			"properties": {
+				"message": "Path `totalPrice` is required.",
+				"type": "required",
+				"path": "totalPrice"
+			},
+			"kind": "required",
+			"path": "totalPrice"
+		},
+		"email": {
+			"name": "ValidatorError",
+			"message": "Path `email` is required.",
+			"properties": {
+				"message": "Path `email` is required.",
+				"type": "required",
+				"path": "email"
+			},
+			"kind": "required",
+			"path": "email"
+		},
+		"phone": {
+			"name": "ValidatorError",
+			"message": "Path `phone` is required.",
+			"properties": {
+				"message": "Path `phone` is required.",
+				"type": "required",
+				"path": "phone"
+			},
+		
+...
+Response: 500 11.104 ms 
+
+Request: GET /api/users/66cc8fb935338737ded851fd at Thu Dec 26 2024 14:11:50 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "66cc8fb935338737ded851fd",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"email": "admin@gmail.com",
+	"phone": "050-8123012",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"isAdmin": true,
+	"__v": 1,
+	"couponsUsed": []
+}
+Response: 304 7.081 ms 
+
+Request: POST /api/orders at Thu Dec 26 2024 14:11:52 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"headers": {
+		"x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmNjOGZiOTM1MzM4NzM3ZGVkODUxZmQiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MzUwNjA2Mjh9._cWaL7xN0V9tRECYtZx1q-F-AHCIuZGenEJcTOw3Pu8"
+	},
+	"status": "התקבל",
+	"serial": "Order.countDocuments({})"
+}
+Response Body:
+{
+	"errors": {
+		"isDelivery": {
+			"name": "ValidatorError",
+			"message": "Path `isDelivery` is required.",
+			"properties": {
+				"message": "Path `isDelivery` is required.",
+				"type": "required",
+				"path": "isDelivery"
+			},
+			"kind": "required",
+			"path": "isDelivery"
+		},
+		"totalPrice": {
+			"name": "ValidatorError",
+			"message": "Path `totalPrice` is required.",
+			"properties": {
+				"message": "Path `totalPrice` is required.",
+				"type": "required",
+				"path": "totalPrice"
+			},
+			"kind": "required",
+			"path": "totalPrice"
+		},
+		"email": {
+			"name": "ValidatorError",
+			"message": "Path `email` is required.",
+			"properties": {
+				"message": "Path `email` is required.",
+				"type": "required",
+				"path": "email"
+			},
+			"kind": "required",
+			"path": "email"
+		},
+		"phone": {
+			"name": "ValidatorError",
+			"message": "Path `phone` is required.",
+			"properties": {
+				"message": "Path `phone` is required.",
+				"type": "required",
+				"path": "phone"
+			},
+		
+...
+Response: 500 9.457 ms 
+
+Request: POST /api/orders at Thu Dec 26 2024 14:13:21 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"headers": {
+		"x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmNjOGZiOTM1MzM4NzM3ZGVkODUxZmQiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MzUwNjA2Mjh9._cWaL7xN0V9tRECYtZx1q-F-AHCIuZGenEJcTOw3Pu8"
+	},
+	"status": "התקבל",
+	"serial": "Order.countDocuments({})"
+}
+Response Body:
+{
+	"errors": {
+		"isDelivery": {
+			"name": "ValidatorError",
+			"message": "Path `isDelivery` is required.",
+			"properties": {
+				"message": "Path `isDelivery` is required.",
+				"type": "required",
+				"path": "isDelivery"
+			},
+			"kind": "required",
+			"path": "isDelivery"
+		},
+		"totalPrice": {
+			"name": "ValidatorError",
+			"message": "Path `totalPrice` is required.",
+			"properties": {
+				"message": "Path `totalPrice` is required.",
+				"type": "required",
+				"path": "totalPrice"
+			},
+			"kind": "required",
+			"path": "totalPrice"
+		},
+		"email": {
+			"name": "ValidatorError",
+			"message": "Path `email` is required.",
+			"properties": {
+				"message": "Path `email` is required.",
+				"type": "required",
+				"path": "email"
+			},
+			"kind": "required",
+			"path": "email"
+		},
+		"phone": {
+			"name": "ValidatorError",
+			"message": "Path `phone` is required.",
+			"properties": {
+				"message": "Path `phone` is required.",
+				"type": "required",
+				"path": "phone"
+			},
+		
+...
+Response: 500 29.478 ms 
+
+Request: POST /api/orders at Thu Dec 26 2024 14:14:20 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"headers": {
+		"x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmNjOGZiOTM1MzM4NzM3ZGVkODUxZmQiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MzUwNjA2Mjh9._cWaL7xN0V9tRECYtZx1q-F-AHCIuZGenEJcTOw3Pu8"
+	},
+	"status": "התקבל",
+	"serial": "Order.countDocuments({})"
+}
+Response Body:
+{
+	"errors": {
+		"isDelivery": {
+			"name": "ValidatorError",
+			"message": "Path `isDelivery` is required.",
+			"properties": {
+				"message": "Path `isDelivery` is required.",
+				"type": "required",
+				"path": "isDelivery"
+			},
+			"kind": "required",
+			"path": "isDelivery"
+		},
+		"totalPrice": {
+			"name": "ValidatorError",
+			"message": "Path `totalPrice` is required.",
+			"properties": {
+				"message": "Path `totalPrice` is required.",
+				"type": "required",
+				"path": "totalPrice"
+			},
+			"kind": "required",
+			"path": "totalPrice"
+		},
+		"email": {
+			"name": "ValidatorError",
+			"message": "Path `email` is required.",
+			"properties": {
+				"message": "Path `email` is required.",
+				"type": "required",
+				"path": "email"
+			},
+			"kind": "required",
+			"path": "email"
+		},
+		"phone": {
+			"name": "ValidatorError",
+			"message": "Path `phone` is required.",
+			"properties": {
+				"message": "Path `phone` is required.",
+				"type": "required",
+				"path": "phone"
+			},
+		
+...
+Response: 500 86.721 ms 
+
+Request: POST /api/orders at Thu Dec 26 2024 14:16:04 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"headers": {
+		"x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmNjOGZiOTM1MzM4NzM3ZGVkODUxZmQiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MzUwNjA2Mjh9._cWaL7xN0V9tRECYtZx1q-F-AHCIuZGenEJcTOw3Pu8"
+	},
+	"status": "התקבל",
+	"serial": "Order.countDocuments({})"
+}
+Response Body:
+{
+	"errors": {
+		"isDelivery": {
+			"name": "ValidatorError",
+			"message": "Path `isDelivery` is required.",
+			"properties": {
+				"message": "Path `isDelivery` is required.",
+				"type": "required",
+				"path": "isDelivery"
+			},
+			"kind": "required",
+			"path": "isDelivery"
+		},
+		"totalPrice": {
+			"name": "ValidatorError",
+			"message": "Path `totalPrice` is required.",
+			"properties": {
+				"message": "Path `totalPrice` is required.",
+				"type": "required",
+				"path": "totalPrice"
+			},
+			"kind": "required",
+			"path": "totalPrice"
+		},
+		"email": {
+			"name": "ValidatorError",
+			"message": "Path `email` is required.",
+			"properties": {
+				"message": "Path `email` is required.",
+				"type": "required",
+				"path": "email"
+			},
+			"kind": "required",
+			"path": "email"
+		},
+		"phone": {
+			"name": "ValidatorError",
+			"message": "Path `phone` is required.",
+			"properties": {
+				"message": "Path `phone` is required.",
+				"type": "required",
+				"path": "phone"
+			},
+		
+...
+Response: 500 25.166 ms 
+
+Request: GET /api/users/66cc8fb935338737ded851fd at Thu Dec 26 2024 14:17:13 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "66cc8fb935338737ded851fd",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"email": "admin@gmail.com",
+	"phone": "050-8123012",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"isAdmin": true,
+	"__v": 1,
+	"couponsUsed": []
+}
+Response: 304 19.560 ms 
+
+Request: GET /api/orders at Thu Dec 26 2024 14:17:44 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb835338737ded851f4",
+		"name": {
+			"first": "Regular",
+			"last": "User",
+			"_id": "66cc8fb835338737ded851f5"
+		},
+		"phone": "0507123012",
+		"email": "reg@gmail.com",
+		"productsId": [
+			"6766942047cf2c8545af80e7"
+		],
+		"totalPrice": 35,
+		"address": {
+			"country": "Israel",
+			"city": "Tel aviv",
+			"street": "Shoham",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb835338737ded851f6"
+		},
+		"isDelivery": true,
+		"status": "התקבל",
+		"serial": "0",
+		"createdAt": "2024-08-26T14:22:48.254Z",
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded851fd",
+		"name": {
+			"first": "Admin",
+			"last": "User",
+			"_id": "66cc8fb935338737ded851fe"
+		},
+		"phone": "050-8123012",
+		"email": "admin@gmail.com",
+		"productsId": [
+			"676aecb14719a5d443119b77"
+		],
+		"totalPrice": 40,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"userId": "66cc8f
+...
+Response: 304 3.428 ms 
+
+Request: GET /api/orders/66cc8fb935338737ded851fd at Thu Dec 26 2024 14:18:01 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "66cc8fb935338737ded851fd",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "התקבל",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 2.771 ms 
+
+Request: GET /api/orders/66cc8fb935338737ded851fd at Thu Dec 26 2024 14:18:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "66cc8fb935338737ded851fd",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "התקבל",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 2.968 ms 
+
+Request: GET /api/orders/66cc8fb935338737ded851fd at Thu Dec 26 2024 14:18:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "66cc8fb935338737ded851fd",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "התקבל",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 3.698 ms 
+
+Request: GET /api/orders at Thu Dec 26 2024 14:18:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb835338737ded851f4",
+		"name": {
+			"first": "Regular",
+			"last": "User",
+			"_id": "66cc8fb835338737ded851f5"
+		},
+		"phone": "0507123012",
+		"email": "reg@gmail.com",
+		"productsId": [
+			"6766942047cf2c8545af80e7"
+		],
+		"totalPrice": 35,
+		"address": {
+			"country": "Israel",
+			"city": "Tel aviv",
+			"street": "Shoham",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb835338737ded851f6"
+		},
+		"isDelivery": true,
+		"status": "התקבל",
+		"serial": "0",
+		"createdAt": "2024-08-26T14:22:48.254Z",
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded851fd",
+		"name": {
+			"first": "Admin",
+			"last": "User",
+			"_id": "66cc8fb935338737ded851fe"
+		},
+		"phone": "050-8123012",
+		"email": "admin@gmail.com",
+		"productsId": [
+			"676aecb14719a5d443119b77"
+		],
+		"totalPrice": 40,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"userId": "66cc8f
+...
+Response: 304 3.709 ms 
+
+Request: GET /api/orders at Thu Dec 26 2024 14:18:16 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb835338737ded851f4",
+		"name": {
+			"first": "Regular",
+			"last": "User",
+			"_id": "66cc8fb835338737ded851f5"
+		},
+		"phone": "0507123012",
+		"email": "reg@gmail.com",
+		"productsId": [
+			"6766942047cf2c8545af80e7"
+		],
+		"totalPrice": 35,
+		"address": {
+			"country": "Israel",
+			"city": "Tel aviv",
+			"street": "Shoham",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb835338737ded851f6"
+		},
+		"isDelivery": true,
+		"status": "התקבל",
+		"serial": "0",
+		"createdAt": "2024-08-26T14:22:48.254Z",
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded851fd",
+		"name": {
+			"first": "Admin",
+			"last": "User",
+			"_id": "66cc8fb935338737ded851fe"
+		},
+		"phone": "050-8123012",
+		"email": "admin@gmail.com",
+		"productsId": [
+			"676aecb14719a5d443119b77"
+		],
+		"totalPrice": 40,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"userId": "66cc8f
+...
+Response: 304 3.217 ms 
+
+Request: GET /public/products/undefined at Thu Dec 26 2024 14:20:24 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 7.050 ms 
+
+Request: GET /api/users/66cc8fb935338737ded851fd at Thu Dec 26 2024 14:20:26 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "66cc8fb935338737ded851fd",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"email": "admin@gmail.com",
+	"phone": "050-8123012",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"isAdmin": true,
+	"__v": 1,
+	"couponsUsed": []
+}
+Response: 304 15.787 ms 
+
+Request: GET /api/users/66cc8fb935338737ded851fd at Thu Dec 26 2024 14:20:26 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "66cc8fb935338737ded851fd",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"email": "admin@gmail.com",
+	"phone": "050-8123012",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"isAdmin": true,
+	"__v": 1,
+	"couponsUsed": []
+}
+Response: 304 5.494 ms 
+
+Request: GET /public/products/undefined at Thu Dec 26 2024 14:20:27 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.019 ms 
+
+Request: GET /public/products/undefined at Thu Dec 26 2024 14:23:51 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.033 ms 
+
+Request: GET /public/products/undefined at Thu Dec 26 2024 14:25:18 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 0.912 ms 
+
+Request: GET /api/users/66cc8fb935338737ded851fd at Thu Dec 26 2024 14:25:54 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "66cc8fb935338737ded851fd",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"email": "admin@gmail.com",
+	"phone": "050-8123012",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"isAdmin": true,
+	"__v": 1,
+	"couponsUsed": []
+}
+Response: 304 6.027 ms 
+
+Request: GET /public/products/undefined at Thu Dec 26 2024 14:25:57 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 1.169 ms 
+
+Request: POST /api/orders at Thu Dec 26 2024 14:25:58 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"_id": "66cc8fb935338737ded851fd",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"email": "admin@gmail.com",
+	"phone": "050-8123012",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"isAdmin": true,
+	"__v": 1,
+	"couponsUsed": [],
+	"totalPrice": 40,
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"status": "ממתין לאישור",
+	"serial": "Order.countDocuments({})"
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.orders index: _id_ dup key: { _id: ObjectId('66cc8fb935338737ded851fd') }",
+		"keyPattern": {
+			"_id": 1
+		},
+		"keyValue": {
+			"_id": "66cc8fb935338737ded851fd"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"_id": 1
+	},
+	"keyValue": {
+		"_id": "66cc8fb935338737ded851fd"
+	}
+}
+Response: 500 37.373 ms 
+
+Request: GET /api/users/66cc8fb935338737ded851fd at Thu Dec 26 2024 14:27:10 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "66cc8fb935338737ded851fd",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"email": "admin@gmail.com",
+	"phone": "050-8123012",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"isAdmin": true,
+	"__v": 1,
+	"couponsUsed": []
+}
+Response: 304 6.774 ms 
+
+Request: POST /api/orders at Thu Dec 26 2024 14:27:12 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Request Body:
+{
+	"_id": "66cc8fb935338737ded851fd",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"email": "admin@gmail.com",
+	"phone": "050-8123012",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"isAdmin": true,
+	"__v": 1,
+	"couponsUsed": [],
+	"totalPrice": 40,
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"status": "ממתין לאישור",
+	"serial": "Order.countDocuments({})"
+}
+Response Body:
+{
+	"errorResponse": {
+		"index": 0,
+		"code": 11000,
+		"errmsg": "E11000 duplicate key error collection: LizMacrame.orders index: _id_ dup key: { _id: ObjectId('66cc8fb935338737ded851fd') }",
+		"keyPattern": {
+			"_id": 1
+		},
+		"keyValue": {
+			"_id": "66cc8fb935338737ded851fd"
+		}
+	},
+	"index": 0,
+	"code": 11000,
+	"keyPattern": {
+		"_id": 1
+	},
+	"keyValue": {
+		"_id": "66cc8fb935338737ded851fd"
+	}
+}
+Response: 500 12.195 ms 
+
+Request: GET /api/users/66cc8fb935338737ded851fd at Thu Dec 26 2024 14:42:45 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "66cc8fb935338737ded851fd",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"email": "admin@gmail.com",
+	"phone": "050-8123012",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"isAdmin": true,
+	"__v": 1,
+	"couponsUsed": []
+}
+Response: 304 7.284 ms 
+
+Request: GET /api/users/66cc8fb935338737ded851fd at Thu Dec 26 2024 14:44:04 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "66cc8fb935338737ded851fd",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"email": "admin@gmail.com",
+	"phone": "050-8123012",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"isAdmin": true,
+	"__v": 1,
+	"couponsUsed": []
+}
+Response: 304 21.530 ms 
+
+Request: GET /api/orders at Thu Dec 26 2024 14:44:19 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb835338737ded851f4",
+		"name": {
+			"first": "Regular",
+			"last": "User",
+			"_id": "66cc8fb835338737ded851f5"
+		},
+		"phone": "0507123012",
+		"email": "reg@gmail.com",
+		"productsId": [
+			"6766942047cf2c8545af80e7"
+		],
+		"totalPrice": 35,
+		"address": {
+			"country": "Israel",
+			"city": "Tel aviv",
+			"street": "Shoham",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb835338737ded851f6"
+		},
+		"isDelivery": true,
+		"status": "התקבל",
+		"serial": "0",
+		"createdAt": "2024-08-26T14:22:48.254Z",
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded851fd",
+		"name": {
+			"first": "Admin",
+			"last": "User",
+			"_id": "66cc8fb935338737ded851fe"
+		},
+		"phone": "050-8123012",
+		"email": "admin@gmail.com",
+		"productsId": [
+			"676aecb14719a5d443119b77"
+		],
+		"totalPrice": 40,
+		"address": {
+			"country": "Israel",
+			"city": "Haifa",
+			"street": "HaNevim",
+			"zip": "8920435",
+			"houseNumber": 5,
+			"_id": "66cc8fb935338737ded851ff"
+		},
+		"userId": "66cc8f
+...
+Response: 304 3.047 ms 
+
+Request: GET /api/orders/676d4f49f6370b4692608aa6 at Thu Dec 26 2024 14:44:31 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "676d4f49f6370b4692608aa6",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "ממתין לאישור",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 3.576 ms 
+
+Request: GET /api/orders/676d4f49f6370b4692608aa6 at Thu Dec 26 2024 14:46:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "676d4f49f6370b4692608aa6",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "ממתין לאישור",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 9.420 ms 
+
+Request: GET / at Thu Dec 26 2024 14:46:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 8.803 ms 
+
+Request: GET /api/products at Thu Dec 26 2024 14:46:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 17.373 ms 
+
+Request: GET /api/stones at Thu Dec 26 2024 14:46:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 14.197 ms 
+
+Request: GET /api/categories at Thu Dec 26 2024 14:46:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1731247801786.jpg",
+			"1731247833352.jpg",
+			"1734775840241.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"1724679330997.jpg",
+			"1724679331021.jpg",
+			"1724679331024.jpg",
+			"1724679331026.jpg",
+			"17
+...
+Response: 304 18.148 ms 
+
+Request: GET / at Thu Dec 26 2024 14:46:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 6.976 ms 
+
+Request: GET /api/orders/676d4f49f6370b4692608aa6 at Thu Dec 26 2024 14:46:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "676d4f49f6370b4692608aa6",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "ממתין לאישור",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 15.189 ms 
+
+Request: GET /api/products at Thu Dec 26 2024 14:46:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 13.748 ms 
+
+Request: GET /api/stones at Thu Dec 26 2024 14:46:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 14.428 ms 
+
+Request: GET /api/categories at Thu Dec 26 2024 14:46:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1731247801786.jpg",
+			"1731247833352.jpg",
+			"1734775840241.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"1724679330997.jpg",
+			"1724679331021.jpg",
+			"1724679331024.jpg",
+			"1724679331026.jpg",
+			"17
+...
+Response: 304 13.947 ms 
+
+Request: GET /public/products/1724680280611.jpg at Thu Dec 26 2024 14:46:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.294 ms 
+
+Request: GET /public/products/1724679146877.jpg at Thu Dec 26 2024 14:46:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 5.209 ms 
+
+Request: GET /public/products/1724679752305.jpg at Thu Dec 26 2024 14:46:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 5.200 ms 
+
+Request: GET /public/products/1724679330997.jpg at Thu Dec 26 2024 14:46:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 6.157 ms 
+
+Request: GET /public/products/1724679930178.jpg at Thu Dec 26 2024 14:46:02 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 4.741 ms 
+
+Request: GET /api/orders/676d4f49f6370b4692608aa6 at Thu Dec 26 2024 14:49:05 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "676d4f49f6370b4692608aa6",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "ממתין לאישור",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 3.818 ms 
+
+Request: GET /api/orders/676d4f49f6370b4692608aa6 at Thu Dec 26 2024 14:58:41 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "676d4f49f6370b4692608aa6",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "ממתין לאישור",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 16.158 ms 
+
+Request: GET /api/orders/676d4f49f6370b4692608aa6 at Thu Dec 26 2024 14:58:41 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "676d4f49f6370b4692608aa6",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "ממתין לאישור",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 3.997 ms 
+
+Request: GET /api/orders/676d4f49f6370b4692608aa6 at Thu Dec 26 2024 14:58:41 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "676d4f49f6370b4692608aa6",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "ממתין לאישור",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 4.123 ms 
+
+Request: GET /api/orders/676d4f49f6370b4692608aa6 at Thu Dec 26 2024 14:58:41 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "676d4f49f6370b4692608aa6",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "ממתין לאישור",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 2.378 ms 
+
+Request: GET /api/orders/676d4f49f6370b4692608aa6 at Thu Dec 26 2024 14:58:41 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "676d4f49f6370b4692608aa6",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "ממתין לאישור",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 2.867 ms 
+
+Request: GET /api/orders/676d4f49f6370b4692608aa6 at Thu Dec 26 2024 14:58:41 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "676d4f49f6370b4692608aa6",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "ממתין לאישור",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 2.703 ms 
+
+Request: GET /api/orders/676d4f49f6370b4692608aa6 at Thu Dec 26 2024 14:58:41 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "676d4f49f6370b4692608aa6",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "ממתין לאישור",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 3.596 ms 
+
+Request: GET /api/orders/676d4f49f6370b4692608aa6 at Thu Dec 26 2024 14:58:41 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "676d4f49f6370b4692608aa6",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "ממתין לאישור",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 2.858 ms 
+
+Request: GET /api/orders/676d4f49f6370b4692608aa6 at Thu Dec 26 2024 15:02:26 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "676d4f49f6370b4692608aa6",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "ממתין לאישור",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 3.164 ms 
+
+Request: GET /api/orders/676d4f49f6370b4692608aa6 at Thu Dec 26 2024 15:02:26 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "676d4f49f6370b4692608aa6",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "ממתין לאישור",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 4.050 ms 
+
+Request: GET /api/orders/676d4f49f6370b4692608aa6 at Thu Dec 26 2024 15:02:39 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "676d4f49f6370b4692608aa6",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "ממתין לאישור",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 9.270 ms 
+
+Request: GET / at Thu Dec 26 2024 15:02:39 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 9.675 ms 
+
+Request: GET /api/products at Thu Dec 26 2024 15:02:39 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 18.400 ms 
+
+Request: GET /api/stones at Thu Dec 26 2024 15:02:39 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 12.201 ms 
+
+Request: GET /api/categories at Thu Dec 26 2024 15:02:39 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1731247801786.jpg",
+			"1731247833352.jpg",
+			"1734775840241.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"1724679330997.jpg",
+			"1724679331021.jpg",
+			"1724679331024.jpg",
+			"1724679331026.jpg",
+			"17
+...
+Response: 304 12.165 ms 
+
+Request: GET / at Thu Dec 26 2024 15:02:39 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.285 ms 
+
+Request: GET /api/orders/676d4f49f6370b4692608aa6 at Thu Dec 26 2024 15:02:39 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+{
+	"_id": "676d4f49f6370b4692608aa6",
+	"name": {
+		"first": "Admin",
+		"last": "User",
+		"_id": "66cc8fb935338737ded851fe"
+	},
+	"phone": "050-8123012",
+	"email": "admin@gmail.com",
+	"productsId": [
+		"676aecb14719a5d443119b77"
+	],
+	"totalPrice": 40,
+	"address": {
+		"country": "Israel",
+		"city": "Haifa",
+		"street": "HaNevim",
+		"zip": "8920435",
+		"houseNumber": 5,
+		"_id": "66cc8fb935338737ded851ff"
+	},
+	"userId": "66cc8fb935338737ded851fd",
+	"isDelivery": true,
+	"status": "ממתין לאישור",
+	"serial": "Order.countDocuments({})",
+	"createdAt": "2024-08-26T14:22:48.254Z",
+	"__v": 0
+}
+Response: 304 5.397 ms 
+
+Request: GET /api/products at Thu Dec 26 2024 15:02:39 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc90241508324d6c354dba",
+		"title": "קישוט לשיער",
+		"description": "הכניסי נגיעה של סטייל בוהו לשיער שלך עם אקססורי מקרמה ייחודי בעבודת יד! פריט זה משדרג כל תסרוקת, בין אם מדובר בשיער פזור, קוקו גבוה או צמה. החוטים הארוגים בעדינות יוצרים דפוסים יפיפיים שמשלבים בין יוקרה ופשטות. האקססורי לשיער זמין במגוון צבעים ודוגמאות, כך שתוכלי להתאים אותו לכל מראה ולכל אירוע. זו הדרך המושלמת להוסיף נגיעה של סטייל אישי ותעוזה לכל הופעה.",
+		"imageFileNames": [
+			"1724679930178.jpg",
+			"1724679930183.jpg",
+			"1724679930189.jpg",
+			"1724679930200.jpg",
+			"1724679930275.jpg"
+		],
+		"stock": 14,
+		"stringAColor": "orange",
+		"stringBColor": "yellow",
+		"stone": "סיטרין",
+		"category": "אקססוריז",
+		"__v": 0,
+		"discount": 0,
+		"currentPrice": 630,
+		"originalPrice": 630,
+		"positionIndex": 0
+	},
+	{
+		"_id": "66cc90241508324d6c354db8",
+		"title": "שרשרת",
+		"description": "שרשרת המקרמה הזו היא יותר מאשר תכשיט - היא יצירת אמנות של ממש. עשויה בקפידה מחוטי מקרמה איכותיים, כל שרשרת נרקמ
+...
+Response: 304 10.957 ms 
+
+Request: GET /api/stones at Thu Dec 26 2024 15:02:39 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded8520e",
+		"name": "אמטיסט",
+		"description": "אבן האמטיסט, בגוון סגול מהפנט, נחשבת לאבן הרוחניות והשלווה. היא ידועה כמסייעת בהרגעת הנפש ובאיזון רגשי, ומציעה הגנה מפני אנרגיות שליליות. האמטיסט מתאימה במיוחד לבני ובנות מזלות דגים, בתולה, וקשת, ותורמת להעצמת האינטואיציה ולחיזוק הקשר עם העצמי הפנימי. זו האבן המושלמת למי שמחפש חיבור עמוק יותר עם הרוחניות והיציבות הרגשית.",
+		"__v": 1,
+		"descriptionImageFileName": "1725889236586.jpg",
+		"descriptionText": "לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.\n\nקולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום,
+...
+Response: 304 10.031 ms 
+
+Request: GET /api/categories at Thu Dec 26 2024 15:02:39 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response Body:
+[
+	{
+		"_id": "66cc8fb935338737ded85208",
+		"hebTitle": "צמידים",
+		"engLink": "Bracelets",
+		"imageFileNames": [
+			"1724680280611.jpg",
+			"1724680280613.jpg",
+			"1724680280613.jpg",
+			"1724680280615.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded85209",
+		"hebTitle": "עגילים",
+		"engLink": "earings",
+		"imageFileNames": [
+			"1724679146877.jpg",
+			"1724679146905.jpg",
+			"1724679146913.jpg",
+			"1724679146922.jpg",
+			"1731247801786.jpg",
+			"1731247833352.jpg",
+			"1734775840241.jpg"
+		],
+		"__v": 1
+	},
+	{
+		"_id": "66cc8fb935338737ded8520a",
+		"hebTitle": "עגילי טבעת",
+		"engLink": "Hook Earrings",
+		"imageFileNames": [
+			"1724679752305.jpg",
+			"1724679752307.jpg",
+			"1724679752310.jpg",
+			"1724679752314.jpg",
+			"1724679752333.jpg"
+		],
+		"__v": 0
+	},
+	{
+		"_id": "66cc8fb935338737ded8520b",
+		"hebTitle": "שרשראות",
+		"engLink": "Necklaces",
+		"imageFileNames": [
+			"1724679330997.jpg",
+			"1724679331021.jpg",
+			"1724679331024.jpg",
+			"1724679331026.jpg",
+			"17
+...
+Response: 304 12.729 ms 
+
+Request: GET /public/products/1724680280611.jpg at Thu Dec 26 2024 15:02:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.826 ms 
+
+Request: GET /public/products/1724679146877.jpg at Thu Dec 26 2024 15:02:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.658 ms 
+
+Request: GET /public/products/1724679752305.jpg at Thu Dec 26 2024 15:02:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 2.744 ms 
+
+Request: GET /public/products/1724679330997.jpg at Thu Dec 26 2024 15:02:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.826 ms 
+
+Request: GET /public/products/1724679930178.jpg at Thu Dec 26 2024 15:02:40 GMT+0200, IP: ::1, User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 Edg/131.0.0.0
+Response: 304 3.969 ms 

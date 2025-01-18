@@ -5,6 +5,8 @@ import Product from "./models/product-model";
 import Category from "./models/category-model";
 import Stone from "./models/stone-model";
 import Order from "./models/order-model";
+import { ICategory } from "../@types/@types";
+import fs from "fs";
 
 const initDB = async () => {
   try {
@@ -110,6 +112,62 @@ const initDB = async () => {
     //     try {
     //       o.status = "התקבל";
     //       o.save();
+    //     } catch (e) {
+    //       Logger.log(e);
+    //     }
+    //   });
+    // });
+
+    // Order.find().then((orders) => {
+    //   orders.forEach((o, index) => {
+    //     try {
+    //       o.createdAt = new Date();
+    //       o.save();
+    //     } catch (e) {
+    //       Logger.log(e);
+    //     }
+    //   });
+    // });
+
+    // Category.find().then((categories) => {
+    //   categories.forEach((c) => {
+    //     try {
+    //       let copy = [...c.imageFileNames];
+    //       c.imageFileNames.forEach((f, index) => {
+    //         if (!fs.existsSync("public/products/" + f)) {
+    //           copy = copy.filter((f1, index1) => f1 !== f);
+    //           console.log(f + " does not exist");
+    //         }
+    //       });
+    //       c.imageFileNames = copy;
+    //       c.save();
+    //     } catch (e) {
+    //       Logger.log(e);
+    //     }
+    //   });
+    // });
+
+    // Product.find().then((products) => {
+    //   let imageList = [];
+    //   products.forEach((p) => {
+    //     imageList = [...imageList, ...p.imageFileNames];
+    //   });
+    //   Logger.log(imageList);
+    //   const files = fs.readdirSync("public/products");
+    //   files.forEach((f) => {
+    //     if (!imageList.includes(f)) {
+    //       fs.unlinkSync("public/products/" + f);
+    //     }
+    //   });
+    // });
+
+    // User.find().then((users) => {
+    //   users.forEach((u) => {
+    //     try {
+    //       if (!u.couponsUsed) {
+    //         u.couponsUsed = [];
+    //       }
+    //       u.save();
     //     } catch (e) {
     //       Logger.log(e);
     //     }

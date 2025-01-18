@@ -4,9 +4,13 @@ import BizCardsError from "../errors/BizCardsError";
 import { authService } from "./auth-service";
 
 export const usersService = {
-  updateUser: async (data: IUserInput, id: string) => {
-    data.password = await authService.hashPassword(data.password); 
-    return User.findOneAndUpdate({ _id: id }, data, {new: true});
+  updateUser: async (data, id: string) => {
+    console.log(data);
+    if (data.password) {
+      data.password = await authService.hashPassword(data.password);
+    }
+
+    return User.findOneAndUpdate({ _id: id }, data, { new: true });
   },
 
   createUser: async (data: IUserInput) => {
@@ -40,7 +44,6 @@ export const usersService = {
   getAllUsers: async () => User.find({}, { password: 0 }),
 
   getUserById: async (id: string) => User.findById(id, { password: 0 }),
-
 
   deleteUser: async (id: string) => User.findByIdAndDelete(id),
 };

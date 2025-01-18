@@ -3,7 +3,21 @@ export type IName = {
   last: string;
 };
 
+export type ICoupon = {
+  code: string;
+  discount: number;
+  expirationDate: Date;
+  minPrice: number;
+  isExpired: boolean;
+  isPercentage: boolean;
+  createdAt: Date;
+  categories: string[];
+  products: string[];
+  role: string;
+};
+
 export type IAddress = {
+  _id?: string;
   street: string;
   city: string;
   zip?: string;
@@ -12,12 +26,27 @@ export type IAddress = {
 };
 
 export type IOrder = {
+  _id?: string;
   userId: string;
+  name: {
+    first: string;
+    last: string;
+  };
+  phone: string;
+  email: string;
   productsId: string[];
   totalPrice: number;
-  address: IAddress;
+  address: {
+    country: string;
+    city: string;
+    street: string;
+    houseNumber: number;
+    zip: string;
+  };
   isDelivery: boolean;
   status: string;
+  serial: string;
+  createdAt: Date;
 };
 
 export type IUserInput = {
@@ -27,6 +56,7 @@ export type IUserInput = {
   address: IAddress;
   name: IName;
   isAdmin: boolean;
+  couponsUsed: string[];
 };
 
 export type IUser = IUserInput & {
@@ -74,4 +104,38 @@ export type ICategory = {
   hebTitle: string;
   engLink: string;
   imageFileNames: string[];
+};
+
+export type IPayProtocolParams = {
+  action: string;
+  Masof: string;
+  What: string;
+  PassP: string;
+  KEY: string;
+  Id: string;
+  Amount: string;
+  Currency: string;
+  CCode: string;
+  OrderId: string;
+  ACode: string;
+  Order: string;
+  Fild1: string;
+  Fild2: string;
+  Fild3: string;
+  Sign: string;
+  Payments: string;
+  UserId: string;
+  Brand: string;
+  Issuer: string;
+  L4digit: string;
+  street: string;
+  city: string;
+  zip: string;
+  country: string;
+  cell: string;
+  Coin: string;
+  Tmonth: string;
+  Tyear: string;
+  errMsg: string;
+  Hesh: string;
 };
